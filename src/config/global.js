@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Capacidad productiva, cargas de trabajo y flujos de proceso',
+    descripcionCurso:
+      'Planear la capacidad productiva y las cargas de trabajo, permite determinar qué tan preciso puede ser el equilibrio de los tres principales recursos del proceso productivo. Y un flujo de proceso se articula con la distribución de la planta de producción y con la ubicación de los puestos de trabajo, permitiendo visualizar necesidades de recursos y capacidades de producción para dar respuesta a la demanda.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
