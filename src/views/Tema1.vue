@@ -464,10 +464,10 @@
                       td 
                     tr
                       td 3 
-                      td Fileteadora 
-                      td ceromax 
+                      td Fileteadora ceromax 
                       td 180 
                       td 1440
+                      td 
                       td 
           .row.justify-content-center.mb-5
             .col-lg-11
