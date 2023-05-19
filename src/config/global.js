@@ -9,11 +9,19 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/a4.svg'),
       },
     ],
   },
@@ -33,63 +41,56 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '',
+        titulo: 'Capacidad instalada',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: '',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '',
+        titulo: 'Balanceo de líneas de producción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '',
+        titulo: 'Matriz de polifuncionalidad',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '',
+        titulo: 'Flujo de procesos - Secuencias operacionales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: '',
+        titulo: 'Sistemas de gestión de flujos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: '',
+        titulo: 'Diagrama de flujo o flujograma y diagrama de hilo',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: '',
+        titulo: 'Módulos de producción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: '',
+        titulo: 'Plan de operaciones y sistemas de transformación o producción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema9',
         numero: '9',
-        titulo: '',
+        titulo: 'Cadenas de abastecimiento',
         desarrolloContenidos: true,
       },
     ],
@@ -140,32 +141,204 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Capacidad instalada',
+      referencia:
+        'Consultoría Profesional México. (2018). Fácil Cálculo de capacidad de producción [video]. YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=qt8L-ARkz8M&ab_channel=ConsultoriaProfesionalMexico',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Capacidad instalada',
+      referencia:
+        'Jara, L. (2015). Utilización de la Capacidad Instalada en la Industria.',
+      tipo: 'Artículo web',
+      link:
+        'https://observatorio.unr.edu.ar/utilizacion-de-la-capacidad-instalada-en-la-industria-2/#:~:text=La%20capacidad%20instalada%20es%20el,equipos%20de%20producci%C3%B3n%2C%20instalaciones%2C%20recursos',
+    },
+    {
+      tema: 'Balanceo de líneas de producción',
+      referencia:
+        'Martínez, C .(2020). Balanceo de Líneas de Producción en Excel [video]. YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=i_6vW3PMsv0&ab_channel=CarlosMartinez',
+    },
+    {
+      tema: 'Módulos de producción',
+      referencia: 'Confecciones ZOE. (2017). Módulo 1 [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/hpCS90qCyCs',
+    },
+    {
+      tema: 'Sistemas de transformación o producción',
+      referencia:
+        'Instituto Tecnológico de Oaxaca. (s.f.). Introducción a los sistemas de producción - ITO [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/6q2U_X1I54s',
+    },
+    {
+      tema: 'Sistemas de transformación o producción',
+      referencia:
+        'Collazo, I. (2019). Tipos de sistemas de producción [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/pAe6LqJzkdA',
+    },
+    {
+      tema: 'Cadenas de abastecimiento',
+      referencia:
+        'VirtualDocencia. (2016). Logística cadena de abastecimiento [video]. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/u9f8_u8NwZE',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Agregar valor',
+      significado:
+        'cuando a un producto o a un servicio se le va añadiendo o sumando características que enriquecen su contenido o presentación para lograr objetivos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Bienes y servicios',
+      significado:
+        'tangibles e intangibles, así se denomina el universo de lo obtenido, mediante procesos productivos.',
+    },
+    {
+      termino: 'Cargas de trabajo',
+      significado:
+        'conjunto de requerimientos que debe realizar un trabajador en su jornada laboral.',
+    },
+    {
+      termino: 'Código sustantivo del trabajo',
+      significado:
+        'documento constitucional donde se especifican todas las normas que regulan el contexto laboral en el país.',
+    },
+    {
+      termino: 'Cuadro de control',
+      significado:
+        'documento donde se monitoriza procesos relacionados con la producción.',
+    },
+    {
+      termino: 'Cuellos de botella',
+      significado:
+        'esta expresión define el represamiento del producto en los puestos de trabajo, por causa de mala programación, un estándar mal medido o la asignación de una persona con desconocimiento de los métodos de trabajo.',
+    },
+    {
+      termino: 'Días hábiles',
+      significado: 'se refiere a los días del año que son laborables.',
+    },
+    {
+      termino: 'Estatus',
+      significado: 'posición que se ocupa dentro de un grupo social.',
+    },
+    {
+      termino: 'Estudio de métodos',
+      significado:
+        'hace referencia al registro y el análisis de los procesos establecidos del trabajo.',
+    },
+    {
+      termino: 'Índice de productividad',
+      significado:
+        'permite comparar el nivel de eficiencia de una empresa con relación a sus procesos.',
+    },
+    {
+      termino: 'Listado operacional',
+      significado:
+        'se refiere al orden en que se realizan las actividades de un proceso.',
+    },
+    {
+      termino: 'Listado operacional',
+      significado:
+        'se refiere al orden en que se realizan las actividades de un proceso.',
+    },
+    {
+      termino: 'Manufactura',
+      significado:
+        'se puede acuñar este término a la transformación de materias primas e insumos por medio de las manos y las máquinas.',
+    },
+    {
+      termino: '<em>Marketing</em>',
+      significado:
+        'serie de elementos que ayudan a ser más especialistas en la parte de la comercialización y las ventas.',
+    },
+    {
+      termino: 'Orden de producción',
+      significado:
+        'documento de instrucción que permite establecer la dirección de un proceso.',
+    },
+    {
+      termino: 'Polifuncionalidad',
+      significado:
+        'capacidad de llevar a cabo distintas actividades en un mismo tiempo determinado.',
+    },
+    {
+      termino: 'Proceso productivo',
+      significado:
+        'conjunto de actividades que lleva a cabo una organización para generar productos o servicios.',
+    },
+    {
+      termino: 'Referencia',
+      significado: 'código con el que se identifica una prenda.',
+    },
+    {
+      termino: 'Variables',
+      significado: 'elementos característicos que pueden cambiar.',
+    },
+    {
+      termino: 'Ventaja competitiva',
+      significado:
+        'característica que distingue a una empresa sobre el mercado en general y se entiende como un valor agregado.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Cabreralibuy, R. (2020). Cómo hacer un diagrama de flujo de procesos. Herramientas Lean.',
+      link: 'https://www.herramientaslean.com/diagramas-de-flujo-de-proceso',
+    },
+    {
+      referencia:
+        'Cuatrecasas, L. (2012). Procesos en flujo flexible Lean. Ediciones Díaz de Santos.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62615?page=19',
+    },
+    {
+      referencia: 'Curin, J. (2017). Plan de operaciones. Emprende pyme.net',
+      link: 'https://www.emprendepyme.net/plan-de-operaciones',
+    },
+    {
+      referencia:
+        'Harrington, H. (1997). Administración total del mejoramiento continuo. McGraw Hill.',
       link: '',
+    },
+    {
+      referencia:
+        'ISO. (2015). Sistemas de gestión de la calidad - Fundamentos y vocabulario. ISO 9000:2015.',
+      link: 'https://www.iso.org/obp/ui/#iso:std:iso:9000:ed-4:v1:es',
+    },
+    {
+      referencia: 'Mejía, T. (2021). Diagrama de hilos. Lifeder.',
+      link: 'https://www.lifeder.com/diagrama-de-hilos/',
+    },
+    {
+      referencia:
+        'OIT (1996). Introducción al estudio del trabajo. Cuarta edición. Oficina Internacional del Trabajo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Porter, M. (2016). La cadena de valor. Editores Plurilingua Publishing.',
+      link: '',
+    },
+    {
+      referencia: 'Roldán, P. (2017). Cadena de suministro. Economipedia',
+      link: 'https://economipedia.com/definiciones/cadena-de-suministro.html',
+    },
+    {
+      referencia:
+        'Valverde Chifla, E. C., y Aguilar, J. P. (2014). La Capacidad Instalada de la Empresa y su incidencia en la Producción de Jeans en CALIFOR JEAN. [Bachelor’s thesis, Universidad Técnica de Ambato. Facultad de Ciencias Administrativas. Carrera de Organización de Empresas].',
+      link:
+        'http://repositorio.uta.edu.ec/bitstream/123456789/7119/1/141%20o.e.pdf',
     },
   ],
   creditos: [
@@ -182,6 +355,63 @@ export default {
           cargo: 'Responsable de línea de producción',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Víctor Manuel Isaza Córdoba',
+          cargo: 'Contratista Diseño Curricular',
+          centro:
+            'Centro de Formación en Diseño, Confección y Mod - Regional Antioquia',
+        },
+        {
+          nombre: 'María Camila Álvarez Trujillo',
+          cargo: 'Contratista Diseño Curricular',
+          centro:
+            'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
+        },
+        {
+          nombre: 'Liliana María Ceballos Gutiérrez',
+          cargo: 'Asesora metodológica, diseño y desarrollo curricular',
+          centro:
+            'Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí - Regional Antioquia',
+        },
+        {
+          nombre: 'Pedro Luis Sossa Ramírez',
+          cargo: 'Diseño y desarrollo curricular',
+          centro:
+            'Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí - Regional Antioquia',
+        },
+        {
+          nombre: 'Vilma Perilla Méndez',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisor metodológico y pedagógico',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro: 'Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Metodólogo para formación virtual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -200,13 +430,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez',
           cargo: 'Diseñador web',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
