@@ -29,23 +29,23 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         img(src='@/assets/curso/temas/tema7/3.png', alt='')
-    figcaption.d-inline-flex.p-4.mb-5 Nota. Tomado de Cuatrecasas (2012).
+        figcaption.mb-5 Nota. Tomado de Cuatrecasas (2012).
     p.mb-5(data-aos='fade-right') Son recomendables los módulos de producción para hacer lotes no muy grandes, se realiza antes de iniciar la planeación para verificar qué tipo de máquinas se van a necesitar de acuerdo con la cantidad por hora que se pretende producir.
     .row.justify-content-center.mb-3
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-3
-          .row.justify-content-around.align-items-center
-            .col-2.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/10.svg")
-            .col-10
-              .row.justify-content-between.align-items-center
-                .col-9.mb-sm-0
-                  h4.mb-1(style="color: #122b4c") Módulo 1 – Confecciones ZO
-                  p.text-small.mb-0(style="color: #122b4c") Revise el siguiente video en el que se ejemplifica claramente el trabajo por módulos, 6 personas trabajan en un módulo de 7 máquinas y un puesto de trabajo para oficios manuales. Las 2 primeras operarias trabajan en cuatro máquinas, las otras 3 operarias trabajan cada una en una máquina, y la última operaria realiza oficios manuales, por ejemplo, revisión y pulida. Cada una va a la misma velocidad y cada una va halando a la operación que la provee. Obsérvese que trabajan de pie.
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/hpCS90qCyCs" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
+        .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/curso/temas/tema1/10.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1(style="color: #122b4c") Módulo 1 – Confecciones ZO
+                        p.mb-0.text-small(style="color: #122b4c") Revise el siguiente video en el que se ejemplifica claramente el trabajo por módulos, 6 personas trabajan en un módulo de 7 máquinas y un puesto de trabajo para oficios manuales. Las 2 primeras operarias trabajan en cuatro máquinas, las otras 3 operarias trabajan cada una en una máquina, y la última operaria realiza oficios manuales, por ejemplo, revisión y pulida. Cada una va a la misma velocidad y cada una va halando a la operación que la provee. Obsérvese que trabajan de pie.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/hpCS90qCyCs" target="_blank" type="application/pdf")
+                          span Ver video 
+                          i.fas.fa-video
     p.mb-5(data-aos='fade-right') Cuando se está trabajando de forma modular no se miden eficiencias individuales, sino grupales, los resultados son del módulo, no de cada persona, de ahí que los módulos de producción se han considerado una filosofía, que nace como respuesta a mercados exigentes en el tiempo, y en la versatilidad de la moda, también se han llamado a esos lotes pequeños series cortas.
     .p-5(style="background-color: #f4f9fe").mb-5
       .row.justify-content-center.align-items-center
@@ -71,7 +71,7 @@
     .p-5(style="background-color: #fbeef1").mb-5
       h4 Para poder implementar un sistema de módulos es importante:
       .row.justify-content-center.align-items-center
-        .col-lg-8 
+        .col-lg-10 
           ul.lista-ul--color
             li
               i.fas.fa-angle-right(style='color: #FF6E33' )

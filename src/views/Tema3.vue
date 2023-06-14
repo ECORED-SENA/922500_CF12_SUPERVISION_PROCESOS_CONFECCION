@@ -23,23 +23,35 @@
             .bloque-texto-g__img(
               :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/2.jpg')})`}"
             )
-            .bloque-texto-g__texto.p-4(style="width: 70%")
+            .bloque-texto-g__texto.p-4
               p.mb-0 De esta manera, la matriz de polifuncionalidad se convierte en una herramienta estratégica que sirve de base para el equilibrio de las líneas de producción, con lo que se da forma y fondo al equipo de trabajo de eficiencia. Con esto se evita que el producto no conforme o la falta de calidad con base en los datos que aporta, por consiguiente, se asigna la persona a la operación acorde al conocimiento que aporta el indicador, esto da como resultado un excelente índice de calidad y cumplimiento en los ciclos de entrega, además de elevados números en la facturación de la empresa, lo cual aporta al sostenimiento económico en el tiempo. (OIT, 1996)
     p.mb-5(data-aos='fade-right') Para construir una matriz de polifuncionalidad tendremos en cuenta el listado operacional. Este es un formato planilla o plantilla, donde se registran las operaciones de la prenda de forma secuencial, estableciendo tres subfases:
-    .p-5(style="background-color: #ecf7f4; min-height: 500px " ).mb-4
-      .d-flex.justify-content-center.flex-wrap
-        .contenedor.m-4
-          img(src='@/assets/curso/temas/tema3/3.svg', alt='' style="width: 295px").mb-3
-          .tarjeta(style="background-color: #b4f3f2 ; width: 295px ").p-3.h-100
-            p.mb-0 en esta etapa las piezas se unen para ser preparadas para otro proceso.
-        .contenedor.m-4
-          img(src='@/assets/curso/temas/tema3/4.svg', alt='' style="width: 295px").mb-3
-          .tarjeta(style="background-color: #f1d4c3 ; width: 295px ").p-3.h-100
-            p.mb-0 en esta etapa se intervienen las piezas claves del producto.
-        .contenedor.m-4
-          img(src='@/assets/curso/temas/tema3/5.svg', alt='' style="width: 295px").mb-3
-          .tarjeta(style="background-color: #eccdd3 ; width: 295px ").p-3.h-100
-            p.mb-0 en esta etapa se evacúa el producto hacia una terminación para ser referenciado y almacenado o para otro proceso alterno como lavandería, bordado o estampado.
+    div(style="background-color: #ecf7f4").p-4.mb-4
+      .row.justify-content-center.mb-5
+        .col-lg-3.mb-lg-0.mb-3
+          .contenedor.mb-4.h-100
+            .pildora-numero.mb-3
+              .pildora-numero__numero: img(src='@/assets/curso/temas/tema3/num1.svg', alt='')
+              .pildora-numero__contenedor(style="border-color: #0ce6ea").d-flex
+                h4.text-center.m-auto Preparación
+            .tarjeta(style="background-color: #b4f3f2").p-3
+              p.mb-0 en esta etapa las piezas se unen para ser preparadas para otro proceso.
+        .col-lg-3.mb-lg-0.mb-3
+          .contenedor.mb-4.h-100  
+            .pildora-numero.mb-3
+              .pildora-numero__numero: img(src='@/assets/curso/temas/tema3/num2.svg', alt='')
+              .pildora-numero__contenedor(style="border-color: #ff6e33").d-flex
+                h4.text-center.m-auto Ensamble
+            .tarjeta.w-100(style="background-color: #f1d4c3 ").p-3
+              p.mb-0 en esta etapa se intervienen las piezas claves del producto.
+        .col-lg-3
+          .contenedor.mb-4.h-100 
+            .pildora-numero.mb-3
+                .pildora-numero__numero: img(src='@/assets/curso/temas/tema3/num3.svg', alt='')
+                .pildora-numero__contenedor(style="border-color: #ea526f").d-flex
+                  h4.text-center.m-auto Terminación 
+            .tarjeta.w-100(style="background-color: #eccdd3 ").p-3
+              p.mb-0 en esta etapa se evacúa el producto hacia una terminación para ser referenciado y almacenado o para otro proceso alterno como lavandería, bordado o estampado.
     p.mb-5(data-aos='fade-right') #[b A continuación, se presenta un ejemplo del listado de operaciones que sirve como base para la construcción de la matriz polifuncional:]
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 8  

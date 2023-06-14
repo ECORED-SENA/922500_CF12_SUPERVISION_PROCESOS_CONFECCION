@@ -12,7 +12,7 @@
           br
           br
           |Para las plantas de producción un buen balanceo de líneas garantiza el cumplimiento de la eficiencia del equipo operativo y marca la diferencia en el aprovechamiento de los recursos humanos, de esta forma, balancear eficientemente posee dos componentes: el primero hace referencia al cumplimiento del factor numérico o las metas y el segundo, a contar con la aplicación de la herramienta de matriz de polifuncionalidad, es decir, a hacer uso del conocimiento que del producto y sus operaciones posee el recurso humano. (OIT, 1996)
-      .col-lg-5.col-4(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/1.svg', alt='')
+      .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/1.svg', alt='')
     h3(style="color: #ea526f") Objetivos de un balance de líneas
     p.mb-5(data-aos='fade-right') El balance de líneas se desarrolla con el fin de alcanzar diversos objetivos, entre los que se encuentran:
     .p-4(style="background-color: #fff1eb").mb-5
@@ -307,21 +307,21 @@
             h4 Puestos reales de trabajo
             p Este dato corresponde a la creación de puestos trabajo por lo que la disponibilidad física de ellos es un requerimiento del balanceo. En este punto siempre se recomienda aproximar a un número entero.
           .col-md-3
-            img(src='@/assets/curso/temas/tema2/27.png', alt='')
+            img(src='@/assets/curso/temas/tema2/28.png', alt='')
       .py-4.py-md-5(titulo="Asignación de tareas" :icono="require('@/assets/curso/temas/tema2/33.svg')")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             h4 Asignación de tareas
             p Para asignar al equipo de trabajo las tareas, primero se debe registrar la jornada laboral de las personas, con los minutos de producción por hora (60 minutos), por día (480 minutos) o por operación, acorde al sistema de balanceo que lleve la planta.
           .col-md-3
-            img(src='@/assets/curso/temas/tema2/27.png', alt='')
+            img(src='@/assets/curso/temas/tema2/29.png', alt='')
       .py-4.py-md-5(titulo="Separación de la maquinaria" :icono="require('@/assets/curso/temas/tema2/34.svg')")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             h4 Separación de la maquinaria
             p Contribuye al diseño de la distribución en planta del módulo.
           .col-md-3
-            img(src='@/assets/curso/temas/tema2/27.png', alt='')
+            img(src='@/assets/curso/temas/tema2/30.png', alt='')
     p.mb-5(data-aos='fade-right') A continuación, se presenta un ejemplo práctico de balanceo de líneas:
     .p-5(style="background-color: #fce5e9").mb-5
       p #[b La empresa Tejiendo Hilos S.A.S. presenta la siguiente información:]
@@ -438,19 +438,19 @@
       //todo! TABLA COMO ANEXO 
     .row.justify-content-center.mb-3
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-3
-          .row.justify-content-around.align-items-center
-            .col-2.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/10.svg")
-            .col-10
-              .row.justify-content-between.align-items-center
-                .col-9.mb-sm-0
-                  h4.mb-1(style="color: #122b4c") Balanceo de líneas de producción
-                  p.text-small.mb-0(style="color: #122b4c") Para ampliar este tema lo invitamos a ver el desarrollo de un ejercicio práctico utilizando la herramienta Excel.
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/i_6vW3PMsv0" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video  
+        .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/curso/temas/tema1/10.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1(style="color: #122b4c") Balanceo de líneas de producción
+                        p.mb-0.text-small(style="color: #122b4c") Para ampliar este tema lo invitamos a ver el desarrollo de un ejercicio práctico utilizando la herramienta Excel.
+                      .col-sm-auto
+                        a.boton.color-acento-botones(href="https://youtu.be/i_6vW3PMsv0" target="_blank" type="application/pdf")
+                          span Ver video 
+                          i.fas.fa-video
 
 
                     

@@ -64,7 +64,33 @@ span
   i
     color: $white
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
+
   background-color: $color-acento-botones
   background-image: url(../assets/curso/temas/flecha.svg)
+  @media (max-width: $bp-max-md)
+    width: 30px
+    height: 30px
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $white
+.slyder-a__bullets__item--active
+  background-color: #ff6e33 !important
+.slyder-a__bullets__item
+  margin: 4px
+  background-color: #e7c9b5
+.pildora-numero
+  display: flex
+  align-items: end
+  &__contenedor
+    margin-left: -1rem
+    border: 3px solid
+    border-style: inset
+    border-left: 0px
+    border-radius: 0 80px 80px 0
+    height: 100%
+    background: linear-gradient(90deg, rgba(255,252,252,1) 35%, rgba(225,224,224,1) 100%)
+    width: 100%
+    height: 81px
+  &__numero
+    z-index: 1
+    img
+      height: 100%

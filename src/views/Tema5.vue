@@ -7,10 +7,10 @@
         span 5
       h1 Sistemas de gestión de flujos
     .row.justify-content-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right").order-lg-1.order-2
         .p-5(style="background-color:#fef0f3 ")
           p.mb-0 La gestión de la producción en las plantas de confección, requiere procesos comunicativos eficientes, así como de la comprensión de las actividades que hay que realizar. A continuación, se describen los términos relacionados con la gestión de flujos.
-      .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/1.svg', alt='')
+      .col-lg-4.col-12.mb-lg-0.mb-3.order-lg-2.order-1(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/1.svg', alt='')
     .tarjeta.bg-slyder.p-5.mb-5
       SlyderA(tipo='b')
         .row.justify-content-center

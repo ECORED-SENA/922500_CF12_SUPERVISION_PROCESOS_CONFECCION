@@ -9,7 +9,7 @@
     .p-4(style="background-color:#fef0f3 ").mb-4
       p.mb-0 Comencemos hablando del diagrama de flujo, el cual es una representación gráfica de los procesos u operaciones representados por medio de símbolos y articulados con conectores, facilita de manera visual que se pueda hacer un recorrido general del proceso. Para elaborarlo se construye en un orden lógico, una lista de las operaciones necesarias para ejecutar el proceso y que se pretenden graficar.
     .row.justify-content-center.mb-5
-      .col-lg-3.col-5: img(src='@/assets/curso/temas/tema6/1.svg', alt='')
+      .col-lg-3.col-5.d-lg-block.d-none: img(src='@/assets/curso/temas/tema6/1.svg', alt='')
       .col-lg-9
         .p-4(style="background-color: #ffe8de ")
           .bloque-texto-c.color-secundario.bg-transparent
@@ -106,7 +106,7 @@
       .col-lg-4.col-6: img(src='@/assets/curso/temas/tema6/7.png', alt='')
     .p-5.mb-5(style="background-color: #d3f5f6")
       .row.justify-content-center.align-items-center
-        .col-lg-2: img(src='@/assets/curso/temas/tema6/8.svg', alt='')
+        .col-lg-2.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema6/8.svg', alt='')
         .col-lg-10
           p.mb-0 Estos diagramas ayudan a marcar y a determinar las distancias recorridas entre operaciones y los recorridos totales de las personas y materiales involucrados en el proceso. Al poder establecer lo anterior, entonces también se pueden hacer observaciones sobre cómo disminuir esos transportes e incluso en algunos casos eliminarlos.
     p.mb-5(data-aos='fade-right') Cuando se hacen recorridos que pasan por el mismo sitio de manera constante a veces se identifica cuántos de esos recorridos son necesarios y cuáles no. La ubicación de los puestos de trabajo se visualiza mejor y se puede observar si su posición actual es óptima o si es susceptible de mejoramiento. #[b Los diagramas de hilo son de particular interés al planear una distribución en planta, cuando el movimiento del material y operarios es de gran importancia, por eso tiene múltiples aplicaciones tales como:]

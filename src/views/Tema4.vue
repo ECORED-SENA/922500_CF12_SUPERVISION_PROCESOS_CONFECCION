@@ -7,66 +7,66 @@
         span 4
       h1 Flujo de procesos - Secuencias operacionales
     .row.justify-content-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right").order-lg-1.order-2
         .p-5.py-3(style="background-color:#cdfbfa ")
           p.mb-0 En los sistemas de transformación de materias primas e insumos en productos y servicios de la industria de la moda, es importante listar las actividades u operaciones del proceso, ese listado o secuencia debe ser organizado de forma tal que a medida que se vaya desarrollando, se evidencie la coherencia en el desarrollo del proceso, es importante entonces definir las entradas y las salidas, para poder establecer los rangos o alcances de esas secuencias. Cuando las secuencias operacionales solo se refieren a la construcción de prendas de vestir se debe remitir a las muestras físicas o fichas técnicas, que son los elementos que definen cómo va elaborada la prenda de vestir requerida.
-      .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/1.jpg', alt='')
+      .col-lg-4.col-12.order-lg-2.mb-lg-0.mb-3(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/1.jpg', alt='')
     .row.justify-content-center.mb-5
       .col-lg-10 
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema4/2.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4(style="width: 70%")
+          .bloque-texto-g__texto.p-4
             p.mb-0 La secuencia operacional para realizar de los procesos se refiere al proceso de comprender, visualizar e identificar los procedimientos y/o actividades que participan en una seguidilla de acciones que se hacen para obtener un resultado, por medio de herramientas gráficas, listados y otros elementos. La secuencia operacional es el camino que se traza para ir avanzando y agregando valor a ese proceso requerido para conseguir las metas.
     h3(style="color: #ea526f") Pasos para construir una secuencia operacional
     p.mb-5(data-aos='fade-right') Para diseñar e implementar una secuencia de operaciones, es necesario seguir los siguientes pasos:
     .tarjeta.tarjeta--gris.p-4.mb-5
       LineaTiempoC.color-acento-contenido(text-small)
         .row.justify-content-center(titulo="Paso 1 ").px-5.py-3
-          .col-lg-7
+          .col-lg-7.order-lg-1.order-2
 
             p Definir el sistema de producción que se va a utilizar.
-          .col-lg-2
+          .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema4/3.svg', alt='')
         .row.justify-content-center(titulo="Paso 2").px-5.py-3
-          .col-lg-7
+          .col-lg-7.order-lg-1.order-2
 
             p Elaborar un listado de actividades u operaciones: su naturaleza, tiempos estándar y la ubicación de los puestos de trabajo, es información importante para construir secuencias operacionales.
-          .col-lg-2
+          .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema4/4.svg', alt='')
         .row.justify-content-center(titulo="Paso 3").px-5.py-3
-          .col-lg-7
+          .col-lg-7.order-lg-1.order-2
 
             p Establecer cuáles equipos y materiales se van a emplear.
-          .col-lg-2
+          .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema4/5.svg', alt='')
         .row.justify-content-center(titulo="Paso 4").px-5.py-3
-          .col-lg-7
+          .col-lg-7.order-lg-1.order-2
 
             p Calcular el número de personas requeridas de acuerdo con el volumen de la demanda y las operaciones; las personas y los horarios definen la capacidad productiva.
-          .col-lg-2
+          .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema4/6.svg', alt='')
         .row.justify-content-center(titulo="Paso 5").px-5.py-3
-          .col-lg-7
+          .col-lg-7.order-lg-1.order-2
 
             p Asignar el sitio y los elementos a utilizar; es decir, organizar la planta, esto requiere consideraciones como el área de la cual se dispone, los inventarios que se manejan, y las áreas con las que se relacionan o se apoyan. Se organiza la planta de acuerdo con la línea de producción.
-          .col-lg-2
+          .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema4/7.svg', alt='')
         .row.justify-content-center(titulo="Paso 6").px-5.py-3
-          .col-lg-7
+          .col-lg-7.order-lg-1.order-2
 
             p Determinar los controles que se van a realizar para hacer seguimiento a la secuencia operacional.
-          .col-lg-2
+          .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema4/8.svg', alt='')
         .row.justify-content-center(titulo="Paso 7").px-5.py-3
-          .col-lg-7
+          .col-lg-7.order-lg-1.order-2
 
             p De acuerdo con el sistema de producción que se utiliza se debe acordar la secuencia operacional y ese sistema está definido por el tipo de producto, el tamaño de la empresa, la tecnología incorporada en los equipos y los materiales que se utilizan, entre otros.
-          .col-lg-2
+          .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema4/9.svg', alt='')
     p.mb-5(data-aos='fade-right') La secuencia operacional debe manejar controles y registros para poder hacer los seguimientos pertinentes y que permitan identificar situaciones susceptibles de ser mejoradas e implementar acciones de mejora. Los resultados del control permiten manejar producciones más organizadas y los consumos de recursos como materias primas, tiempo, entre otros, y ayudan a verificar las cantidades producidas.
-    .p-5(style="background-color: #dbfafa ")
+    .p-5(style="background-color: #dbfafa ").mb-4
       h4 Ventajas de la secuencia operacional
       p Los procesos productivos de confección son cada vez más dinámicos, su organización genera cierta complejidad, por lo cual se requiere una comprensión metódica de sus elementos y de cada interacción que se dé en dicho proceso con el fin de mantener o mejorar su eficiencia; por eso organizar secuencias operacionales trae ciertas ventajas como:
       .row.justify-content-center.mb-5

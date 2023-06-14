@@ -9,7 +9,7 @@
     .p-4(style="background-color:#fef0f3 ").mb-4
       p.mb-0 Denominadas también cadenas de aprovisionamiento o de suministros; son todas las actividades, instalaciones y logística de las que hacen parte las entradas y la transformación de los materiales en productos terminados y su posterior distribución, teniendo en cuenta cantidades, fechas, velocidad y costos. En la industria de la moda se ha venido implementando en los últimos años este concepto con gran éxito, ya que integra todas las actividades a un objetivo común y más grande
     .row.justify-content-center.mb-5
-      .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema9/1.jpg', alt='')
+      .col-lg-4.col-12.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema9/1.jpg', alt='')
       .col-lg-8
         .cajon.color-secundario.p-4.mb-4(style="background-color: #dbfafa ")
           p.mb-0 Abastecer una demanda significa gestionar recursos y actividades diseñadas para atender los pedidos, administrar de manera idónea todos los elementos necesarios para satisfacer las demandas. Lograr que esos recursos y actividades estén en las cantidades solicitadas, en el momento y lugar indicado y cumpliendo las especificaciones deseadas es el objetivo de una cadena de abastecimiento, teniendo en cuenta que abarca áreas administrativas, de logística, de recursos humanos, financieros, tecnológicos, paquetes de información, bases de datos, etc.
@@ -49,19 +49,19 @@
     figcaption.d-inline-flex.p-4.mb-5 Nota. Tomado y adaptado de Roldán (2017)
     .row.justify-content-center.mb-3
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-3
-          .row.justify-content-around.align-items-center
-            .col-2.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/10.svg")
-            .col-10
-              .row.justify-content-between.align-items-center
-                .col-9.mb-sm-0
-                  h4.mb-1(style="color: #122b4c") Logística cadena de abastecimiento
-                  p.text-small.mb-0(style="color: #122b4c") Observe el siguiente video con el que podrá ampliar el concepto de la cadena de abastecimiento:
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/u9f8_u8NwZE" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video  
+        .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/curso/temas/tema1/10.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1(style="color: #122b4c") Logística cadena de abastecimiento
+                        p.mb-0.text-small(style="color: #122b4c") Observe el siguiente video con el que podrá ampliar el concepto de la cadena de abastecimiento:
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/u9f8_u8NwZE" target="_blank" type="application/pdf")
+                          span Ver video 
+                          i.fas.fa-video
 </template>
 
 <script>

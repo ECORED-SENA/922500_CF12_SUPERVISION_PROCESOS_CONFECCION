@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Capacidad instalada
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-3.align-items-center
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         p Para la industria textil de confección, hablar de capacidad instalada se refiere al componente vital del proceso productivo; es decir, sus recursos esenciales como: las personas, el producto y la maquinaria, que en compañía de la tecnología provee servicios o productos de óptima calidad. De estos depende que los administrativos, proyecten el futuro económico que tanto les preocupa. Lo que implica obtener máxima eficiencia del equipo operativo y utilizar sus conocimientos, puesto que provee al mercado de altos parámetros de calidad inmersos en sus productos, lo que significa una ventaja competitiva que la empresa sostiene en el tiempo.
         .cajon.color-secundario.p-4.mb-4(style="background-color: #DBFAFA")
@@ -46,7 +46,7 @@
       p.mb-3(data-aos='fade-right').text-center.fw-bold Así, para determinar la Capacidad Instalada Operativa se debe aplicar la siguiente fórmula:
       .justify-content-center.d-flex
         .tarjeta.color-acento-contenido.p-4.d-inline-flex
-          p.text-white.fst-italic.text-center.mb-0 𝐶.𝐼.𝑂=𝑁𝑜.𝑑𝑒 𝑝𝑒𝑟𝑠𝑜𝑛𝑎𝑠 𝑑𝑒 𝑀.𝑂.𝐷∗𝐽𝑜𝑟𝑛𝑎𝑑𝑎 𝑙𝑎𝑏𝑜𝑟𝑎𝑙∗𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒 𝑑𝑒 𝑑í𝑎𝑠 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑜𝑠 𝑝𝑜𝑟 𝑚𝑒𝑠
+          p.text-white.fst-italic.text-center.mb-0 C.I.O= No. de personas de M.O.D*Jornada laboral*Constante de día
     p.mb-3.text-center #[b A continuación, se presenta un ejemplo para comprender un poco más acerca de la capacidad instalada operativa aplicada al contexto laboral.]
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -183,9 +183,9 @@
               h5 Tiempo estándar de la prenda
               p Unidad de medida de tiempo, en minutos, de una prenda de vestir. Se obtiene mediante un estudio de métodos y tiempos que da como resultado precisamente el tiempo estándar de la prenda
     p.text-center.mb-5 Así, para determinar la carga instalada o minutos de producción se debe realizar la siguiente fórmula:
-    .justify-content-center.d-flex
+    .justify-content-center.d-flex.mb-4
         .tarjeta.color-acento-contenido.p-4.d-inline-flex
-          p.text-white.fst-italic.text-center.mb-0 𝐶.𝐼.𝑂=𝑁𝑜.𝑑𝑒 𝑝𝑒𝑟𝑠𝑜𝑛𝑎𝑠 𝑑𝑒 𝑀.𝑂.𝐷∗𝐽𝑜𝑟𝑛𝑎𝑑𝑎 𝑙𝑎𝑏𝑜𝑟𝑎𝑙∗𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒 𝑑𝑒 𝑑í𝑎𝑠 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑜𝑠 𝑝𝑜𝑟 𝑚𝑒𝑠  
+          p.text-white.fst-italic.text-center.mb-0 C I. Oz No. de personas de M O. D*Jornada laboral*Constante de das productivos por mes
     p.mb-5(data-aos='fade-right') Se puede observar el siguiente ejemplo, para comprender un poco más acerca de la carga instalada o de los minutos de producción aplicados al contexto laboral.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -256,7 +256,7 @@
               div(style="background-color: #DEE9F0 ").p-4
                 p.mb-0 #[b En la tabla 2], es posible conocer la fecha de ingreso de las órdenes de producción con sus respectivas referencias, descripción, número de unidades, tiempo estándar, total de minutos de producción y la fecha de despacho. A partir de la información suministrada es posible interpretar técnicamente que la referencia 434.343 con orden de producción número 102.223, aporta al proceso un total de 5621,1 minutos o que la referencia 434.346 con orden de producción número 102.226, aporta al proceso un total de 13030,5 minutos. De esta manera, los datos presentados se convierten en el insumo vital para planear y programar en la planta de producción.  
     h3(style="color: #ea526f") Carga instalada en minutos técnicos         
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.align-items-center
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         .p-5(style="background-color: #f6f6f6")   
           p.mb-0 Se asocia a la diversidad de máquinas con que cuentan las plantas de manufactura, aunque esta carga es poco empleada para protocolos de programación, los minutos técnicos muestran las restricciones que tienen las empresas con respecto a la maquinaria. Igual que los anteriores tipos de cargas, son los minutos asociados al parque de inventario disponible durante una jornada de trabajo, igualmente al tiempo que aportan los recursos de guías y accesorios que acompañan al departamento de producción, además de la calidad y de las áreas de montaje del producto. (Valverde Chifla, 2014)
@@ -281,9 +281,9 @@
               h5 Jornada de Trabajo
               p Periodo de tiempo estimado en la normatividad del código Sustantivo del trabajo colombiano, en el que se determinan un numero de de minutos horarios o diarios.
     p.mb-5(data-aos='fade-right').text-center Así, para determinar la carga instalada en minutos técnicos se debe realizar la siguiente fórmula:
-    .justify-content-center.d-flex
+    .justify-content-center.d-flex.mb-4
         .tarjeta.color-acento-contenido.p-4.d-inline-flex
-          p.text-white.fst-italic.text-center.mb-0 𝐶.𝐼.𝑇=𝑁𝑜.𝑑𝑒 𝑚á𝑞𝑢𝑖𝑛𝑎𝑠 𝑝𝑜𝑟 𝑒𝑠𝑝𝑒𝑐𝑖𝑎𝑙𝑖𝑑𝑎𝑑∗𝐽𝑜𝑟𝑛𝑎𝑑𝑎 𝑑𝑒 𝑡𝑟𝑎𝑏𝑎𝑗𝑜 (ℎ𝑜𝑟𝑎𝑟𝑖𝑎 𝑜 𝑑𝑖𝑎𝑟𝑖𝑎)
+          p.text-white.fst-italic.text-center.mb-0 C Z r=No. de quinas por especialidad*Jornada de trabajo (horaria o diaria)
     p.mb-5(data-aos='fade-right') Con el siguiente ejemplo, se podrá comprender un poco más acerca de la carga instalada en minutos técnicos aplicada al contexto laboral.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -474,7 +474,7 @@
               div(style="background-color: #DEE9F0 ").p-4
                 p.mb-0 En el ejemplo es posible evidenciar que al analizar la disponibilidad del tiempo asociado al equipo técnico, existe una apropiación de la maquinaria y con este se relaciona la programación del desarrollo de este inventario, lo cual se conectará con la disposición del equipo frente al listado operacional de cada una de las actividades que se deben llevar a cabo en las órdenes de producción que llegan a la empresa.
     h3(style="color: #ea526f") Aplicación en la industria        
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.align-items-center
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         .p-5(style="background-color: #f6f6f6")   
           p.mb-0 La capacidad instalada en cada uno de sus elementos, provee diversos usos a la información obtenida a partir de las distintas variables, que integradas con los planes estratégicos de las compañías generan grandes beneficios, lo cual permite direccionar la obtención del cumplimiento de objetivos como la productividad y la facturación para el sostenimiento económico. A continuación, se mencionan algunos:
@@ -494,33 +494,34 @@
         p Se refiere al requerimiento de recurso humano, de materias primas, de maquinaria, costos, disponibilidad y capacidad de respuesta.
     .row.justify-content-center.mb-3
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-3
-          .row.justify-content-around.align-items-center
-            .col-2.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/10.svg")
-            .col-10
-              .row.justify-content-between.align-items-center
-                .col-9.mb-sm-0
-                  h4.mb-1(style="color: #122b4c") Cálculo de capacidad de producción
-                  p.text-small.mb-0(style="color: #122b4c") Observe el siguiente video para observar los pasos para el cálculo del volumen a producir.
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/qt8L-ARkz8M" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
-    .row.justify-content-center.mb-5
+        .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/curso/temas/tema1/10.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1(style="color: #122b4c") Cálculo de capacidad de producción
+                        p.mb-0.text-small(style="color: #122b4c") Observe el siguiente video para observar los pasos para el cálculo del volumen a producir.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/qt8L-ARkz8M" target="_blank" type="application/pdf")
+                          span Ver video 
+                          i.fas.fa-video
+    .row.justify-content-center.mb-3
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-5
-          .row.justify-content-around.align-items-center
-            .col-2.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/11.svg")
-            .col-10
-              .row.justify-content-between.align-items-center
-                .col-9.mb-sm-0
-                  h4.mb-1(style="color: #122b4c") Utilización de la capacidad instalada en la industria.
-                  p.text-small.mb-0(style="color: #122b4c") Le invitamos a consultar el artículo sobre el potencial de la capacidad instalada en la industria
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.texto-blanco(href="https://observatorio.unr.edu.ar/utilizacion-de-la-capacidad-instalada-en-la-industria-2/" target="_blank" type="application/pdf")
-                    span Ir al articulo 
+        .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/curso/temas/tema1/11.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1(style="color: #122b4c") Utilización de la capacidad instalada en la industria.
+                        p.mb-0.text-small(style="color: #122b4c") Le invitamos a consultar el artículo sobre el potencial de la capacidad instalada en la industria
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(href="https://observatorio.unr.edu.ar/utilizacion-de-la-capacidad-instalada-en-la-industria-2/" target="_blank" type="application/pdf")
+                          span Ir al articulo 
+                          i.fas.fa-file 
 
 
 

@@ -15,7 +15,7 @@
     .p-5(style="background-color: #fbeef1").mb-5
       h4 Este plan de operaciones permite:
       .row.justify-content-center.align-items-center
-        .col-lg-8 
+        .col-lg-10 
           ul.lista-ul--color
             li
               i.fas.fa-angle-right(style='color: #FF6E33' )
@@ -41,7 +41,7 @@
         p Se trata de sistemas dedicados a la producción de lotes muy pequeños, personalizados, de mucha manufactura, y con diseños exclusivos.
     .row.justify-content-center.mb-5
       .col-lg-8
-        .p-5(style="background-color: #dbfafa ")
+        .p-5(style="background-color: #dbfafa ").mb-5
           h5 Para saber elegir cuál sistema es más conveniente se tienen en cuenta aspectos como:
           .row.justify-content-center
             .col-lg-5
@@ -87,7 +87,7 @@
               h5 Calidad
               p El cumplimiento de las especificaciones solicitadas por el cliente debe ser el resultado de un sistema de producción adecuado para cada tipo de empresa.
     p.mb-5(data-aos='fade-right') #[b Los sistemas de producción se relacionan con los sectores económicos de producción así:]
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.align-items-center
       .col-lg-4.col-6: img(src='@/assets/curso/temas/tema8/7.png', alt='')
       .col-lg-6
         .linea-editada
@@ -97,34 +97,34 @@
             p.text-small(numero="3" titulo="Sector terciario") Este sector es el que tiene que ver con las actividades de comercialización y #[em marketing.]
     .row.justify-content-center.mb-3
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-3
-          .row.justify-content-around.align-items-center
-            .col-2.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/10.svg")
-            .col-10
-              .row.justify-content-between.align-items-center
-                .col-9.mb-sm-0
-                  h4.mb-1(style="color: #122b4c") Introducción a los sistemas de producción - ITO
-                  p.text-small.mb-0(style="color: #122b4c") Para conocer más sobre el tema remítase a los siguientes videos:
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/6q2U_X1I54s" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video  
+        .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/curso/temas/tema1/10.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1(style="color: #122b4c") Introducción a los sistemas de producción - ITO
+                        p.mb-0.text-small(style="color: #122b4c") Para conocer más sobre el tema remítase a los siguientes videos:
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/6q2U_X1I54s" target="_blank" type="application/pdf")
+                          span Ver video 
+                          i.fas.fa-video
     .row.justify-content-center.mb-3
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-3
-          .row.justify-content-around.align-items-center
-            .col-2.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/10.svg")
-            .col-10
-              .row.justify-content-between.align-items-center
-                .col-9.mb-sm-0
-                  h4.mb-1(style="color: #122b4c") Tipos de sistemas de producción
-                  p.text-small.mb-0(style="color: #122b4c") Para conocer más sobre el tema remítase a los siguientes videos:
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/pAe6LqJzkdA" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video  
+        .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/curso/temas/tema1/10.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1(style="color: #122b4c") Tipos de sistemas de producción
+                        p.mb-0.text-small(style="color: #122b4c") Para conocer más sobre el tema remítase a los siguientes videos:
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/pAe6LqJzkdA" target="_blank" type="application/pdf")
+                          span Ver video 
+                          i.fas.fa-video
 
 </template>
 
