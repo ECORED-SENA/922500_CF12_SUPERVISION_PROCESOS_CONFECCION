@@ -105,7 +105,7 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1(style="color: #122b4c") Introducción a los sistemas de producción - ITO
-                        p.mb-0.text-small(style="color: #122b4c") Para conocer más sobre el tema remítase a los siguientes videos:
+                        p.mb-0.text-small(style="color: #122b4c") Lo invitamos a ver el siguiente video, el cual explica qué es un sistema de producción, su estructura y sus tipos.		
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/6q2U_X1I54s" target="_blank" type="application/pdf")
                           span Ver video 
@@ -120,7 +120,7 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1(style="color: #122b4c") Tipos de sistemas de producción
-                        p.mb-0.text-small(style="color: #122b4c") Para conocer más sobre el tema remítase a los siguientes videos:
+                        p.mb-0.text-small(style="color: #122b4c") Para completar el estudio de los diferentes tipos de producción, lo invitamos a ver el siguiente video.		
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/pAe6LqJzkdA" target="_blank" type="application/pdf")
                           span Ver video 

@@ -45,7 +45,7 @@
       h5 Figura 3 
       br 
       span.fst-italic Cadena de aprovisionamiento
-    img(src='@/assets/curso/temas/tema9/5.svg', alt='').mb-4
+    img(src='@/assets/curso/temas/tema9/5.svg', alt='La imagen presenta cómo es la cadena de aprovisionamiento, comenzando con las materias primeras, luego va la producción, continúa con el transporte a las agencias y sucursuales, luego viene el almacenamiento o bodegaje, para continuar con las compras y facturación y finalizar con la distribución y entregas.').mb-4
     figcaption.d-inline-flex.p-4.mb-5 Nota. Tomado y adaptado de Roldán (2017)
     .row.justify-content-center.mb-3
       .col-lg-10

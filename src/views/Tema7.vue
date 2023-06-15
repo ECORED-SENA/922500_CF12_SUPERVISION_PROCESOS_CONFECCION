@@ -28,7 +28,7 @@
       span.fst-italic Módulo de producción en “U” con todas las operaciones de un proceso
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        img(src='@/assets/curso/temas/tema7/3.png', alt='')
+        img(src='@/assets/curso/temas/tema7/3.png', alt='La imagen presenta un módulo de producción en U, desde el inicio (entrada) hasta la finalización (salida), con cada uno de los procesos que intervienen en esa producción.')
         figcaption.mb-5 Nota. Tomado de Cuatrecasas (2012).
     p.mb-5(data-aos='fade-right') Son recomendables los módulos de producción para hacer lotes no muy grandes, se realiza antes de iniciar la planeación para verificar qué tipo de máquinas se van a necesitar de acuerdo con la cantidad por hora que se pretende producir.
     .row.justify-content-center.mb-3

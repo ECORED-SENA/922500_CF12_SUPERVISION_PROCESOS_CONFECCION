@@ -30,7 +30,7 @@
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Procesos
-            p Son actividades que se realizan para obtener productos y/o servicios, las anteceden unas entradas y culminan con unas salidas. En las plantas de producción y específicamente en las que pertenecen al sistema moda se realizan procesos diversos desde el diseño, trazo y corte, ensamble y confección, lavados, hasta el acabado y el despacho. Es muy importante tener dimensionados como se interrelacionan y lo que representan en el proceso total cada uno de esos procesos. Por su parte, la ISO 9000 (2015) define proceso como el conjunto de todas las operaciones que intervienen y se relacionan entre sí para transformar las entradas en resultados. En las organizaciones una de las funciones más relevantes es ir generando valor en la medida que sus operaciones van avanzando, en la transformación de las materias primas en productos o servicios finales. De ahí que a los sistemas de trasformación se les dedique una atención importante.
+            p Se realizan para obtener productos y/o servicios, las anteceden unas entradas y culminan con unas salidas. La ISO 9000 (2015) define proceso como el conjunto de todas las operaciones que intervienen y se relacionan entre sí para transformar las entradas en resultados. En las organizaciones una de las funciones más relevantes es ir generando valor en la medida que sus operaciones van avanzando, en la transformación de las materias primas en productos o servicios finales. De ahí que a los sistemas de trasformación se les dedique una atención importante.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema5/4.png', alt='Texto que describa la imagen')
