@@ -46,7 +46,7 @@
       p.mb-3(data-aos='fade-right').text-center.fw-bold Así, para determinar la Capacidad Instalada Operativa se debe aplicar la siguiente fórmula:
       .justify-content-center.d-flex
         .tarjeta.color-acento-contenido.p-4.d-inline-flex
-          p.text-white.fst-italic.text-center.mb-0 C.I.O= No. de personas de M.O.D*Jornada laboral*Constante de día
+          p.text-white.fst-italic.text-center.mb-0 C.I.O= No. de personas de M.O.D*Jornada laboral*Constante de días productivos por mes
     p.mb-3.text-center #[b A continuación, se presenta un ejemplo para comprender un poco más acerca de la capacidad instalada operativa aplicada al contexto laboral.]
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -57,8 +57,7 @@
           p.mb-4 Hilos y Dedales S.A.S. tiene una planta de manufactura y cuenta con 2 módulos de ensamble que respectivamente poseen personal de mano de obra directa de 9, 8, y 14 personas en el área de empaque. La empresa labora de lunes a sábado en 8 horas diarias. Por ello, se pide calcular la capacidad instalada operativa, por equipos de trabajo, durante una hora, un día y un mes.
           .titulo-sexto.color-primario(data-aos='fade-right')
             h5 Tabla 1 
-            br
-            span.fst-italic Ejemplo capacidad instalada operativa
+            span Ejemplo capacidad instalada operativa
           .row.justify-content-center.mb-4
             .col-lg-11
               .tabla-a
@@ -174,18 +173,18 @@
           .tarjeta.w-100.rounded-0(style="background-color: #ffe8de ")
             .p-4.text-center.pt-5
               h5 Número de unidades de la orden de producción
-              p Total de unidades asociadas a una orden de producción especifica
+              p Total de unidades asociadas a una orden de producción especifica.
       .col-lg-5.mb-lg-0.mb-3
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/7.svg' alt='AvatarTop')
           .tarjeta.w-100.rounded-0(style="background-color: #dbfafa ")
             .p-4.text-center.pt-5
               h5 Tiempo estándar de la prenda
-              p Unidad de medida de tiempo, en minutos, de una prenda de vestir. Se obtiene mediante un estudio de métodos y tiempos que da como resultado precisamente el tiempo estándar de la prenda
+              p Unidad de medida de tiempo, en minutos, de una prenda de vestir. Se obtiene mediante un estudio de métodos y tiempos que da como resultado precisamente el tiempo estándar de la prenda.
     p.text-center.mb-5 Así, para determinar la carga instalada o minutos de producción se debe realizar la siguiente fórmula:
     .justify-content-center.d-flex.mb-4
         .tarjeta.color-acento-contenido.p-4.d-inline-flex
-          p.text-white.fst-italic.text-center.mb-0 C I. Oz No. de personas de M O. D*Jornada laboral*Constante de das productivos por mes
+          p.text-white.fst-italic.text-center.mb-0 C.I.P = No. de unidades de la orden de producción * Tiempo estándar de la preda
     p.mb-5(data-aos='fade-right') Se puede observar el siguiente ejemplo, para comprender un poco más acerca de la carga instalada o de los minutos de producción aplicados al contexto laboral.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -196,8 +195,7 @@
           p.mb-4 Manufacturamos prendas S.A.S. tiene una planta de producción y cuenta con las siguientes órdenes de fabricación que se presentan a continuación:
           .titulo-sexto.color-primario(data-aos='fade-right')
             h5 Tabla 2
-            br
-            span.fst-italic Ejemplo carga instalada o minutos de producción
+            span Ejemplo carga instalada o minutos de producción
           .row.justify-content-center.mb-4
             .col-lg-11
               .tabla-a
@@ -272,7 +270,7 @@
           .tarjeta.w-100.rounded-0(style="background-color: #ffe8de ")
             .p-4.text-center.pt-5
               h5 Número de unidades de la orden de producción
-              p Total de unidades asociadas a una orden de producción especifica
+              p Total de unidades asociadas a una orden de producción especifica.
       .col-lg-5.mb-lg-0.mb-3
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/7.svg' alt='AvatarTop')
@@ -283,7 +281,7 @@
     p.mb-5(data-aos='fade-right').text-center Así, para determinar la carga instalada en minutos técnicos se debe realizar la siguiente fórmula:
     .justify-content-center.d-flex.mb-4
         .tarjeta.color-acento-contenido.p-4.d-inline-flex
-          p.text-white.fst-italic.text-center.mb-0 C Z r=No. de quinas por especialidad*Jornada de trabajo (horaria o diaria)
+          p.text-white.fst-italic.text-center.mb-0 C.I.T = No. de máquinas por especialidad * Jornada de trabajo (horaria o diaria)
     p.mb-5(data-aos='fade-right') Con el siguiente ejemplo, se podrá comprender un poco más acerca de la carga instalada en minutos técnicos aplicada al contexto laboral.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -294,8 +292,7 @@
           p.mb-4 Manufacturas y Manufacturas S.A.S. presenta la siguiente relación del parque de la maquinaria con la que actualmente cuenta la empresa, con ello, el líder del departamento de producción requiere el cálculo de la capacidad instalada en minutos técnicos para la elaboración del plan maestro de producción, por lo que pide a su asistente elaborar un cuadro de control que contenga los datos.
           .titulo-sexto.color-primario(data-aos='fade-right')
             h5 Tabla 3
-            br
-            span.fst-italic Ejemplo carga instalada o minutos de producción
+            span Ejemplo carga instalada o minutos de producción
           .row.justify-content-center.mb-4
             .col-lg-12
               .tabla-a
@@ -502,7 +499,7 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1(style="color: #122b4c") Cálculo de capacidad de producción
-                        p.mb-0.text-small(style="color: #122b4c") Observe el siguiente video para observar los pasos para el cálculo del volumen a producir.
+                        p.mb-0.text-small(style="color: #122b4c") Le invitamos a consultar el siguiente video en el cual podrá observar los pasos para el cálculo del volumen a producir.
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/qt8L-ARkz8M" target="_blank" type="application/pdf")
                           span Ver video 
@@ -516,8 +513,8 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        h4.mb-1(style="color: #122b4c") Utilización de la capacidad instalada en la industria.
-                        p.mb-0.text-small(style="color: #122b4c") Le invitamos a consultar el artículo sobre el potencial de la capacidad instalada en la industria
+                        h4.mb-1(style="color: #122b4c") Utilización de la capacidad instalada en la industria
+                        p.mb-0.text-small(style="color: #122b4c") Le invitamos a consultar el artículo sobre el potencial de la capacidad instalada en la industria.
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(href="https://observatorio.unr.edu.ar/utilizacion-de-la-capacidad-instalada-en-la-industria-2/" target="_blank" type="application/pdf")
                           span Ir al articulo 

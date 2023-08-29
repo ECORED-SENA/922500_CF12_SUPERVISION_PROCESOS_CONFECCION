@@ -61,7 +61,7 @@
           i.fas.fa-angle-right(style="color: #FF6E33")
           | Hay procesos que manejan muchos datos y la incorporación de información es restringida.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 10  
+      h5 Tabla 7
       br
       span.fst-italic 4 principales figuras para realizar diagramas de flujo de proceso
     .row.justify-content-center.mb-5

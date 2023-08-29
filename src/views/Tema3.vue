@@ -9,13 +9,12 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         .p-5(style="background-color:#cdfbfa ")
-          p.mb-0 La matriz de polifuncionalidad hace referencia al cuadro de control, donde se incluye el conocimiento que tiene cada una de las personas de gestión humana asociadas al proceso, igualmente la maquinaria en la que operan, el producto que se elabora y, por consiguiente, de las operaciones y sus métodos de trabajo. Todo esto se expresa integrado en un índice porcentual, utilizando una escala de valoración numérica que se observa en la siguiente tabla.
+          p.mb-0 La matriz de polifuncionalidad hace referencia al cuadro de control, donde se incluye el conocimiento que tiene cada una de las personas de gestión humana asociadas al proceso, igualmente la maquinaria en la que operan, el producto que se elabora y, por consiguiente, de las operaciones y sus métodos de trabajo. Todo esto se expresa integrado en un índice porcentual, utilizando una escala de valoración numérica que se observa en el siguiente anexo.
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/1.svg', alt='')
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 7  
-      br
-      span.fst-italic Ejemplo de matriz de polifuncionalidad
-    //todo! TABLA COMO ANEXO 
+    //- .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    //-   h5 Tabla 5
+    //-   span Ejemplo de matriz de polifuncionalidad
+    //- //todo! TABLA COMO ANEXO 
     .row.justify-content-center.mb-5
       .col-lg-10 
         .bloque-derecha
@@ -54,9 +53,8 @@
               p.mb-0 en esta etapa se evacúa el producto hacia una terminación para ser referenciado y almacenado o para otro proceso alterno como lavandería, bordado o estampado.
     p.mb-5(data-aos='fade-right') #[b A continuación, se presenta un ejemplo del listado de operaciones que sirve como base para la construcción de la matriz polifuncional:]
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 8  
-      br
-      span.fst-italic Ejemplo listado de operaciones
+      h5 Tabla 5
+      span Ejemplo listado de operaciones
     .row.justify-content-center.mb-4
       .col-lg-11
         .tabla-a

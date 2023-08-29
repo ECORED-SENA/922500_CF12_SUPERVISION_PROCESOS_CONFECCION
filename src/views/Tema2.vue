@@ -21,43 +21,43 @@
           img(src='@/assets/curso/temas/tema2/2.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Alcanzar el cumplimiento de la producción programada.
+              p.text-center Alcanzar el cumplimiento de la producción programada.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/3.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Mantener la trazabilidad de la eficiencia individual y de los equipos de trabajo.
+              p.text-center Mantener la trazabilidad de la eficiencia individual y de los equipos de trabajo.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/4.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Elevar la valoración del ritmo de trabajo, técnica que mide el comportamiento cualitativo del recurso humano al interior del proceso.
+              p.text-center Elevar la valoración del ritmo de trabajo, técnica que mide el comportamiento cualitativo del recurso humano al interior del proceso.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/5.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Disminuir los tiempos de espera entre operaciones.
+              p.text-center Disminuir los tiempos de espera entre operaciones.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/6.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Eliminar los cuellos de botella en los módulos de trabajo.
+              p.text-center Eliminar los cuellos de botella en los módulos de trabajo.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/7.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Disminuir la curva de aprendizaje en el montaje de las ordenes de producción.
+              p.text-center Disminuir la curva de aprendizaje en el montaje de las ordenes de producción.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/8.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Eliminar la programación de horas extras por los sobrecostos que genera.
+              p.text-center Eliminar la programación de horas extras por los sobrecostos que genera.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/9.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p Disminuir costos de operatividad del proceso.
-    h3(style="color: #ea526f") Objetivos de un balance de líneas
+              p.text-center Disminuir costos de operatividad del proceso.
+    h3(style="color: #ea526f") Construcción del balanceo de línea de producción
     p.mb-5(data-aos='fade-right') Se constituye en una herramienta vital para el control de la producción, que tiene como objetivo principal equilibrar los tiempos de trabajo en cada etapa de su proceso, lo cual permitirá la optimización de las diferentes variables que intervienen.
       br
       br
@@ -80,25 +80,11 @@
               img(src='@/assets/curso/temas/tema2/11.png', alt='Texto que describa la imagen')
         .row.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h4 Inventario de maquinaria
-            p Son las guías y accesorios para contrarrestar restricciones de los equipos.
-          .col-md-5
-            figure
-              img(src='@/assets/curso/temas/tema2/12.png', alt='Texto que describa la imagen')
-        .row.align-items-center.justify-content-center
-          .col-md-5.mb-4.mb-md-0
             h4 Grado de polifuncionalidad del equipo operativo
             p Se refiere al conocimiento de cada una de las operaciones de la prenda por parte de las personas de mano de obra directa.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/13.png', alt='Texto que describa la imagen')
-        .row.align-items-center.justify-content-center
-          .col-md-5.mb-4.mb-md-0
-            h4 Índice de ausentismo
-            p Permite prever paros por la ausencia del recurso humano, lo que permite realizar un adelanto a su reemplazo en el proceso.
-          .col-md-5
-            figure
-              img(src='@/assets/curso/temas/tema2/14.png', alt='Texto que describa la imagen')
         .row.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Índice de eficiencia individual del equipo operativo
@@ -108,13 +94,6 @@
               img(src='@/assets/curso/temas/tema2/15.png', alt='Texto que describa la imagen')
         .row.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h4 Planilla de control
-            p Documento donde se registran los datos recolectados.
-          .col-md-5
-            figure
-              img(src='@/assets/curso/temas/tema2/16.png', alt='Texto que describa la imagen')
-        .row.align-items-center.justify-content-center
-          .col-md-5.mb-4.mb-md-0
             h4 Estatus de la tecnología que posee la empresa
             p Hace referencia al nivel tecnológico manejado por la empresa, así como las revoluciones por minuto de sus motores (RPM).
           .col-md-5
@@ -122,16 +101,37 @@
               img(src='@/assets/curso/temas/tema2/17.png', alt='Texto que describa la imagen')
         .row.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
+            h4 Inventario de maquinaria
+            p Son las guías y accesorios para contrarrestar restricciones de los equipos.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema2/12.png', alt='Texto que describa la imagen')
+        .row.align-items-center.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            h4 Índice de ausentismo
+            p Permite prever paros por la ausencia del recurso humano, lo que permite realizar un adelanto a su reemplazo en el proceso.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema2/14.png', alt='Texto que describa la imagen')
+        .row.align-items-center.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            h4 Planilla de control
+            p Documento donde se registran los datos recolectados.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema2/16.png', alt='Texto que describa la imagen')
+        .row.align-items-center.justify-content-center
+          .col-md-5.mb-4.mb-md-0
             h4 Aplicación de los datos técnicos
             p Se refiere al uso de los datos que arroja el cálculo de la capacidad instalada, minutos instalados, carga en minutos técnicos y minutos de producción.
           .col-md-5
+
             figure
               img(src='@/assets/curso/temas/tema2/18.png', alt='Texto que describa la imagen')
-    p.mb-5(data-aos='fade-right') En el siguiente formato, se evidencian cada uno de los elementos que hacen parte del balanceo de líneas de producción.
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 4  
-      br
-      span.fst-italic Ejemplo de formato de balanceo de líneas modulares
+    //- .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    //-   h5 Tabla 4  
+    //-   br
+    //-   span.fst-italic Ejemplo de formato de balanceo de líneas modulares
     
     
     
@@ -298,7 +298,7 @@
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             h4 Total de personas por especialidad de máquinas
-            p Se obtiene realizando la sumatoria de los datos numéricos de la columna Cálculo personas por operación ubicada en la tabla 4.
+            p Se obtiene realizando la sumatoria de los datos numéricos de la columna Cálculo personas por operación ubicada en el anexo titulado Ejemplo de formato de balanceo de líneas modulares.
           .col-md-3
             img(src='@/assets/curso/temas/tema2/27.png', alt='')
       .py-4.py-md-5(titulo="Puestos reales de trabajo" :icono="require('@/assets/curso/temas/tema2/32.svg')")
@@ -347,94 +347,93 @@
               .col-lg-2.col-6: img(src='@/assets/curso/temas/tema2/35.svg', alt='')
             p.mb-5(data-aos='fade-right') Con esta información se debe construir el cuadro de control y balancear la línea de trabajo sabiendo que la lista de operaciones es la siguiente: 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Tabla 5
-        br
-        span.fst-italic Ejemplo práctico balanceo de líneas (listado operacional)
+        h5 Tabla 4
+        span Ejemplo práctico balanceo de líneas (listado operacional)
       .row.justify-content-center.mb-4
         .col-lg-11
           .tabla-a
             table
               thead(style="border-top: 0px")
                 tr(style="background-color: #FF6E33 ") 
-                  th No.	
+                  th(style='width: 10%') No.	
                   th OPERACIÓN		
                   th MÁQUINA 
                   th SAM (100%)
               tbody.bg-white.text-center
                 tr
-                  td 1	
+                  td(style='width: 10%') 1	
                   td FIJAR MARQUILLA	
                   td Plana sencilla	
                   td 0.316
                 tr
-                  td 2	
+                  td(style='width: 10%') 2	
                   td UNIR HOMBRO DERECHO	
                   td Fileteadora sencilla	
                   td 0.216
                 tr
-                  td 3	
+                  td(style='width: 10%') 3	
                   td SESGAR CUELLO REDONDO	
                   td Sesgadora 	
                   td 0.356
                 tr
-                  td 4	
+                  td(style='width: 10%') 4	
                   td UNIR HOMBRO IZQ CASANDO SESGO	
                   td Fileteadora sencilla	
                   td 0.232
                 tr
-                  td 5	
+                  td(style='width: 10%') 5	
                   td PRESILLAR X 1	
                   td Presilladora 	
                   td 0.422
                 tr
-                  td 6	
+                  td(style='width: 10%') 6	
                   td PEGAR MANGAS X 2	
                   td Fileteadora sencilla	
                   td 0.760
                 tr
-                  td 7	
+                  td(style='width: 10%') 7	
                   td CERRAR COSTADOS M/C X 2 CON COMPOSICIÓN	
                   td Fileteadora sencilla	
                   td 0.833
                 tr
-                  td 8	
+                  td(style='width: 10%') 8	
                   td DOBLAR RUEDO MANGAS X 2	
                   td Recubridora	
                   td 0.633
                 tr
-                  td 9	
+                  td(style='width: 10%') 9	
                   td DOBLAR RUEDO BAJO	
                   td Recubridora	
                   td 0.620
                 tr
-                  td 10	
+                  td(style='width: 10%') 10	
                   td PULIR Y REVISAR CAMISETA CON MARQUILLA	
                   td Manual 	
                   td 0.975
                 tr
-                  td 11	
+                  td(style='width: 10%') 11	
                   td PEGAR STICKER EN ETIQUETA Y BOLSA	
                   td Manual 	
                   td 0.138
                 tr
-                  td 12	
+                  td(style='width: 10%') 12	
                   td ETIQUETAR X 1	
                   td Manual 	
                   td 0.126
                 tr
-                  td 13	
+                  td(style='width: 10%') 13	
                   td PEGAR ADHESIVO ADVERTENCIA	
                   td Manual 	
                   td 0.160
                 tr
-                  td 14	
+                  td(style='width: 10%') 14	
                   td DOBLAR, EMPACAR Y ENCINTAR BOLSA	
                   td Manual 	
                   td 0.326
                 tr
                   td(colspan="3" ) TOTAL
                   td 6.113
-      p.mb-5(data-aos='fade-right') Por consiguiente, en la tabla 5, se establece la información que se ubicará en el formato de balanceo en líneas de trabajo, ver siguiente tabla.
+      p.mb-5(data-aos='fade-right') Por consiguiente, en la tabla 3, se establece la información que se ubicará en el formato de balanceo en líneas de trabajo, ver siguiente tabla.
       //todo! TABLA COMO ANEXO 
     .row.justify-content-center.mb-3
       .col-lg-10
@@ -446,7 +445,7 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1(style="color: #122b4c") Balanceo de líneas de producción
-                        p.mb-0.text-small(style="color: #122b4c") Para ampliar este tema lo invitamos a ver el desarrollo de un ejercicio práctico utilizando la herramienta Excel.
+                        p.mb-0.text-small(style="color: #122b4c") ara ampliar sus conocimientos sobre este tema, lo invitamos a consultar el siguiente video en el cual se desarrolla un ejercicio práctico utilizando la herramienta Excel.
                       .col-sm-auto
                         a.boton.color-acento-botones(href="https://youtu.be/i_6vW3PMsv0" target="_blank" type="application/pdf")
                           span Ver video 
