@@ -476,19 +476,22 @@
         .p-5(style="background-color: #f6f6f6")   
           p.mb-0 La capacidad instalada en cada uno de sus elementos, provee diversos usos a la información obtenida a partir de las distintas variables, que integradas con los planes estratégicos de las compañías generan grandes beneficios, lo cual permite direccionar la obtención del cumplimiento de objetivos como la productividad y la facturación para el sostenimiento económico. A continuación, se mencionan algunos:
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/9.png', alt='')
-    TabsA.color-acento-contenido.mb-5
-      .tarjeta.p-4(titulo="Uso racional del tiempo" style="background-color: #ebf6ff")
-        p Asociado a los recursos más relevantes en los procesos de manufactura (recursos humanos, materias primas y equipamiento, guías y accesorios). En este contexto el tiempo en la capacidad de respuesta es vital con los clientes internos y externos.
-      .tarjeta.p-4(titulo="Regulación de los costos <br>de producción" style="background-color: #ebf6ff")
-        p Hace referencia al hecho de ser competitivos en un mercado donde la competencia no tiene escrúpulos para aplastar los precios de los productos propios.
-      .tarjeta.p-4(titulo="Uso racional del espacio físico" style="background-color: #ebf6ff")
-        p Este es muy costoso, sobre todo el suelo comercial, por lo que se espera el máximo aprovechamiento de cada centímetro disponible en las áreas locativas.
-      .tarjeta.p-4(titulo="Aplicaciones en la construcción de <br> balances de lineas de trabajo" style="background-color: #ebf6ff")
-        p Esta matriz permite calcular metas programadas y la asignación de cargas de trabajo, con el complemento del cuadro de polifuncionalidad.
-      .tarjeta.p-4(titulo="Intervención en el diseño de los <br> indicadores de gestión <br>de la compañía" style="background-color: #ebf6ff")
-        p Permite trazabilidad al proceso de aplicación de políticas y estrategias corporativas.
-      .tarjeta.p-4(titulo="Integración al plan maestro de la <br> producción" style="background-color: #ebf6ff")
-        p Se refiere al requerimiento de recurso humano, de materias primas, de maquinaria, costos, disponibilidad y capacidad de respuesta.
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/tema1/c1.png', alt='')
+      .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          div(titulo="Uso racional del tiempo" )
+            p Asociado a los recursos más relevantes en los procesos de manufactura (recursos humanos, materias primas y equipamiento, guías y accesorios). En este contexto el tiempo en la capacidad de respuesta es vital con los clientes internos y externos.
+          div(titulo="Regulación de los costos de producción" )
+            p Hace referencia al hecho de ser competitivos en un mercado donde la competencia no tiene escrúpulos para aplastar los precios de los productos propios.
+          div(titulo="Uso racional del espacio físico" )
+            p Este es muy costoso, sobre todo el suelo comercial, por lo que se espera el máximo aprovechamiento de cada centímetro disponible en las áreas locativas.
+          div(titulo="Aplicaciones en la construcción de  balances de lineas de trabajo" )
+            p Esta matriz permite calcular metas programadas y la asignación de cargas de trabajo, con el complemento del cuadro de polifuncionalidad.
+          div(titulo="Intervención en el diseño de los  indicadores de gestión de la compañía" )
+            p Permite trazabilidad al proceso de aplicación de políticas y estrategias corporativas.
+          div(titulo="Integración al plan maestro de la  producción" )
+            p Se refiere al requerimiento de recurso humano, de materias primas, de maquinaria, costos, disponibilidad y capacidad de respuesta.
     .row.justify-content-center.mb-3
       .col-lg-10
         .tarjeta.color-secundario.p-3

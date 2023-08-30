@@ -43,10 +43,9 @@
       |#[b En la siguiente figura se ilustra la manera en que deben interactuar las actividades de una organización, proveyéndose unas a otras.]
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 3 
-      br 
-      span.fst-italic Cadena de aprovisionamiento
-    img(src='@/assets/curso/temas/tema9/5.svg', alt='La imagen presenta cómo es la cadena de aprovisionamiento, comenzando con las materias primeras, luego va la producción, continúa con el transporte a las agencias y sucursuales, luego viene el almacenamiento o bodegaje, para continuar con las compras y facturación y finalizar con la distribución y entregas.').mb-4
-    figcaption.d-inline-flex.p-4.mb-5 Nota. Tomado y adaptado de Roldán (2017)
+      span Cadena de aprovisionamiento
+    img(src='@/assets/curso/temas/tema9/5.svg', alt='La cadena de aprovisionamiento se compone de las siguientes fases: materias primas, producción, transporte y logística, agencias y sucursales, almacenamiento o bodegaje, venta, facturación y distribución y entregas.').mb-4
+    figcaption.mb-5 Nota. Tomado y adaptado de Roldán (2017)
     .row.justify-content-center.mb-3
       .col-lg-10
         .tarjeta.color-secundario.p-3

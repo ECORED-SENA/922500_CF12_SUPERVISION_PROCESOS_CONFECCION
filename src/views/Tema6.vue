@@ -14,7 +14,7 @@
         .p-4(style="background-color: #ffe8de ")
           .bloque-texto-c.color-secundario.bg-transparent
             i.fas.fa-quote-right
-            p.mb-0 Según Harrington (1997) “los diagramas de flujo son representaciones gráficas de procesos que muestran las actividades tanto de los procesos de negocio o productos/servicios como la relación entre estos. Dichos procesos tienen valor en casi todos los pasos de los precios para la solución de problemas. Se pueden utilizar para identificar problemas, definir mediciones, generar ideas, proporcionar una visión de la condición futura deseada y seleccionar la solución apropiada” (p.98).
+            p.mb-0  “los diagramas de flujo son representaciones gráficas de procesos que muestran las actividades tanto de los procesos de negocio o productos/servicios como la relación entre estos. Dichos procesos tienen valor en casi todos los pasos de los precios para la solución de problemas. Se pueden utilizar para identificar problemas, definir mediciones, generar ideas, proporcionar una visión de la condición futura deseada y seleccionar la solución apropiada” (p.98).
             span Harrington (1997)
     .p-5(style="background-color: #f3f9ff ").mb-5
       h5.mb-5 Se podría definir que las ventajas más destacadas de usar flujogramas en la gestión de procesos son:
@@ -91,7 +91,7 @@
                 td Esta figura indica la dirección del flujo y se utiliza con frecuencia para unir dos etapas sucesivas de un mismo proceso.
               tr
                 td 
-                  p.text-center Proceso
+                  p.text-center Decisión
                   img(src='@/assets/curso/temas/tema6/6.svg', alt='' style="width: 131px").m-auto
                 td En este punto del proceso se debe tomar una determinación y según las flechas que salen de esta figura se determinan las acciones a seguir.
     p.mb-5(data-aos='fade-right') Los diagramas de flujo sirven para visualizar cómo avanzan las operaciones y cómo se relacionan con la distribución de planta y los puestos de trabajo. Eso significa que se pueden identificar situaciones que necesitan ser mejoradas, de esa manera este tipo de gráfica ayuda a tomar mejores decisiones y a mejorar tiempos.
@@ -126,19 +126,19 @@
 
             
         .col-lg-2.col-6: img(src='@/assets/curso/temas/tema6/9.svg', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .p-5(style="background-color: #ecf7f4 ")
-          h4 Ejemplo 
-          p.mb-5 En la siguiente figura se muestra un diagrama de hilo, donde las letras son los puestos de trabajo o los almacenamientos, y se puede ver los alfileres y los hilos que unen y hacen interactuar las operaciones, mostrando los recorridos y las distancias que las separan.
+    .p-5(style="background-color: #ecf7f4 ")
+      .row.justify-content-center.mb-5
+        .col-lg-12
+            h4 Ejemplo 
+            p.mb-5 En la siguiente figura se muestra un diagrama de hilo, donde las letras son los puestos de trabajo o los almacenamientos, y se puede ver los alfileres y los hilos que unen y hacen interactuar las operaciones, mostrando los recorridos y las distancias que las separan.
+
+
+        .col-lg-6.col-6 
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1  
-            br
-            span.fst-italic Ejemplo diagrama de hilo
-
-
-      .col-lg-4.col-6: img(src='@/assets/curso/temas/tema6/10.png', alt='')
-    figcaption.d-inline-flex Nota. Tomado de Mejía (2021).
+            span Ejemplo diagrama de hilo
+          img(src='@/assets/curso/temas/tema6/10.svg', alt='Diagrama de hilos que muestra el recorrido de producción, presentando, a través de letras los puestos de trabajo o los almacenamientos, y los recorridos y distancias que los separan, a través de alfileres e hilos.').mb-3
+          figcaption Nota. Tomado de Mejía (2021).
 
 </template>
 

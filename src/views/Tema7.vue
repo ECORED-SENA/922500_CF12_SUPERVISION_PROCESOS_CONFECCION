@@ -22,13 +22,12 @@
           p En los módulos de producción no siempre el número de trabajadores es igual al número de máquinas, en la mayoría de los casos los trabajadores se van desplazando por las máquinas y solo va avanzando de a una unidad, lo que significa que el módulo va produciendo de manera constante prendas terminadas. En el sistema tradicional de producción se manejan paquetes de piezas cortadas, de entre 20 y 30 unidades. De ese modo hay que esperar el tiempo que se requiere para ensamblar todo el paquete, de manera modular están saliendo prendas constantemente y el inventario en proceso es mínimo, como se muestra en la siguiente figura.
         .col-lg-4
           img(src='@/assets/curso/temas/tema7/2.png', alt='')
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 2 
-      br 
-      span.fst-italic Módulo de producción en “U” con todas las operaciones de un proceso
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
-        img(src='@/assets/curso/temas/tema7/3.png', alt='La imagen presenta un módulo de producción en U, desde el inicio (entrada) hasta la finalización (salida), con cada uno de los procesos que intervienen en esa producción.')
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 2 
+          span Módulo de producción en “U” con todas las operaciones de un proceso
+        img.mb-3(src='@/assets/curso/temas/tema7/3.svg', alt='Ejemplo de un módulo de producción en U, el cual representa cada una de las operaciones de un proceso de producción, desde la entrada de la materia prima, hasta la salida del producto final.')
         figcaption.mb-5 Nota. Tomado de Cuatrecasas (2012).
     p.mb-5(data-aos='fade-right') Son recomendables los módulos de producción para hacer lotes no muy grandes, se realiza antes de iniciar la planeación para verificar qué tipo de máquinas se van a necesitar de acuerdo con la cantidad por hora que se pretende producir.
     .row.justify-content-center.mb-3
@@ -41,7 +40,7 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1(style="color: #122b4c") Módulo 1 – Confecciones ZO
-                        p.mb-0.text-small(style="color: #122b4c") Revise el siguiente video en el que se ejemplifica claramente el trabajo por módulos, 6 personas trabajan en un módulo de 7 máquinas y un puesto de trabajo para oficios manuales. Las 2 primeras operarias trabajan en cuatro máquinas, las otras 3 operarias trabajan cada una en una máquina, y la última operaria realiza oficios manuales, por ejemplo, revisión y pulida. Cada una va a la misma velocidad y cada una va halando a la operación que la provee. Obsérvese que trabajan de pie.
+                        p.mb-0.text-small(style="color: #122b4c") En el siguiente video se ejemplifica el trabajo por módulos, en este caso 6 personas trabajan de pie en un módulo de 7 máquinas. Las dos primeras operarias trabajan en cuatro máquinas, las otras tres trabajan cada una en una máquina y la última operaria realiza oficios manuales.
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/hpCS90qCyCs" target="_blank" type="application/pdf")
                           span Ver video 

@@ -9,7 +9,12 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         .p-5(style="background-color:#cdfbfa ")
-          p.mb-0 La matriz de polifuncionalidad hace referencia al cuadro de control, donde se incluye el conocimiento que tiene cada una de las personas de gestión humana asociadas al proceso, igualmente la maquinaria en la que operan, el producto que se elabora y, por consiguiente, de las operaciones y sus métodos de trabajo. Todo esto se expresa integrado en un índice porcentual, utilizando una escala de valoración numérica que se observa en el siguiente anexo.
+          p.mb-3 La matriz de polifuncionalidad hace referencia al cuadro de control, donde se incluye el conocimiento que tiene cada una de las personas de gestión humana asociadas al proceso, igualmente la maquinaria en la que operan, el producto que se elabora y, por consiguiente, de las operaciones y sus métodos de trabajo. Todo esto se expresa integrado en un índice porcentual, utilizando una escala de valoración numérica que se observa en el siguiente anexo.
+          a.anexo.mb-5(:href="obtenerLink('/downloads/Tabla7.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/curso/temas/tema3/excel.svg")
+            .anexo__texto
+              p Anexo. Ejemplo de matriz de polifuncionalidad
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/1.svg', alt='')
     //- .titulo-sexto.color-acento-contenido(data-aos='fade-right')
     //-   h5 Tabla 5
@@ -59,10 +64,10 @@
       .col-lg-11
         .tabla-a
           table
-            thead(style="border-top: 0px")
-              tr(style="background-color: #FF6E33 ") 
+            thead(style="border-top: 0px").border-encabezado
+              tr(style="background-color: #FF6E33; width: auto")
                 th(colspan="4") LISTADO OPERACIONES
-              tr(style="background-color: #dee9f0 ") 
+              tr(style="background-color: #dee9f0  ") 
                 th(colspan="2") REFERENCIA 561007 Orden de producción: 561007
                 th 	FECHA
                 th 7/7/21
@@ -70,13 +75,13 @@
                 th SEC
                 th DESCRIPCIÓN DE LA OPERACIÓN
                 th MÁQUINA
-                th SAM
-            tbody.bg-white
+                th(style="width:20%") SAM
+            tbody.bg-white.border-encabezado
               tr
                 td  1 
                 td Fijar marquilla  
                 td Plana 1 
-                td 0.308
+                td(style="width: 20%") 0.308
               tr
                 td 2 
                 td Unir hombro derecho 

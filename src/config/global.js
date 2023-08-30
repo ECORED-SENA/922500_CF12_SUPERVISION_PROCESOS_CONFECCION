@@ -143,7 +143,7 @@ export default {
     {
       tema: 'Capacidad instalada',
       referencia:
-        'Consultoría Profesional México. (2018). Fácil Cálculo de capacidad de producción [video]. YouTube.',
+        'Consultoría Profesional México. (2018). Fácil Cálculo de capacidad de producción.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=qt8L-ARkz8M&ab_channel=ConsultoriaProfesionalMexico',
@@ -159,35 +159,34 @@ export default {
     {
       tema: 'Balanceo de líneas de producción',
       referencia:
-        'Martínez, C .(2020). Balanceo de Líneas de Producción en Excel [video]. YouTube.',
+        'Martínez, C .(2020). Balanceo de Líneas de Producción en Excel.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=i_6vW3PMsv0&ab_channel=CarlosMartinez',
     },
     {
       tema: 'Módulos de producción',
-      referencia: 'Confecciones ZOE. (2017). Módulo 1 [video]. YouTube.',
+      referencia: 'Confecciones ZOE. (2017). Módulo 1.',
       tipo: 'Video',
       link: 'https://youtu.be/hpCS90qCyCs',
     },
     {
       tema: 'Sistemas de transformación o producción',
       referencia:
-        'Instituto Tecnológico de Oaxaca. (s.f.). Introducción a los sistemas de producción - ITO [video]. YouTube.',
+        'Instituto Tecnológico de Oaxaca. (s.f.). Introducción a los sistemas de producción - ITO.',
       tipo: 'Video',
       link: 'https://youtu.be/6q2U_X1I54s',
     },
     {
       tema: 'Sistemas de transformación o producción',
-      referencia:
-        'Collazo, I. (2019). Tipos de sistemas de producción [video]. YouTube.',
+      referencia: 'Collazo, I. (2019). Tipos de sistemas de producción.',
       tipo: 'Video',
       link: 'https://youtu.be/pAe6LqJzkdA',
     },
     {
       tema: 'Cadenas de abastecimiento',
       referencia:
-        'VirtualDocencia. (2016). Logística cadena de abastecimiento [video]. YouTube',
+        'VirtualDocencia. (2016). Logística cadena de abastecimiento.',
       tipo: 'Video',
       link: 'https://youtu.be/u9f8_u8NwZE',
     },
@@ -354,8 +353,13 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
         {
           nombre: 'Víctor Manuel Isaza Córdoba',
           cargo: 'Contratista Diseño Curricular',
@@ -416,36 +420,31 @@ export default {
       ],
     },
     {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-      ],
-    },
-    {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
           nombre: 'Carlos Julian Ramirez',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Animador y Productor Multimedia',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -454,21 +453,21 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

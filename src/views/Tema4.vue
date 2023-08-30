@@ -69,7 +69,7 @@
     .p-5(style="background-color: #dbfafa ").mb-4
       h4 Ventajas de la secuencia operacional
       p Los procesos productivos de confección son cada vez más dinámicos, su organización genera cierta complejidad, por lo cual se requiere una comprensión metódica de sus elementos y de cada interacción que se dé en dicho proceso con el fin de mantener o mejorar su eficiencia; por eso organizar secuencias operacionales trae ciertas ventajas como:
-      .row.justify-content-center.mb-5
+      .row.justify-content-center
         .col-lg-6
           ul.lista-ul--color
             li
@@ -106,8 +106,8 @@
           table
             thead(style="border-top: 0px")
               tr(style="background-color: #FF6E33 ") 
-                th
-                th(colspan="4") Cliente : MIC
+                th(style="width: 7%")
+                th(colspan="4" style="width: 80%") Cliente : MIC
                 th
               tr(style="background-color: #dee9f0 ") 
                 th #OP 

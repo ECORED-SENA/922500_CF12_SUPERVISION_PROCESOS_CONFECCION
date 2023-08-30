@@ -128,76 +128,21 @@
 
             figure
               img(src='@/assets/curso/temas/tema2/18.png', alt='Texto que describa la imagen')
-    //- .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-    //-   h5 Tabla 4  
-    //-   br
-    //-   span.fst-italic Ejemplo de formato de balanceo de líneas modulares
-    
-    
-    
-    //TODO! pendiente plantear la tabla como anexo. 
-
-    //- .row.justify-content-center.mb-4
-    //-       .col-lg-11
-    //-         .tabla-a
-    //-           table
-    //-             thead(style="border-top: 0px")
-    //-               tr(style="background-color: #FF6E33 ") 
-    //-                 th(colspan="3" ) BALANCEO DE LÍNEA DE TRABAJO
-    //-                 th(colspan="2" ) DEPARTAMENTO DE INGENIERÍA
-    //-             tbody.bg-white.text-center
-    //-               tr(style="background-color: #dee9f0 ").fw-bold
-    //-                 td DATOS DISPONIBLES
-    //-                 td DIARIA
-    //-                 td HORARIA
-    //-                 td(colspan="2" ) ESPECIFICACIÓN DE LA PRENDA
-    //-               tr
-    //-                 td Jornada de trabajo (min/dia/hora)
-    //-                 td 480
-    //-                 td 60
-    //-                 td(rowspan="2") REFERENCIA
-    //-                 td(rowspan="2") 558889
-    //-               tr
-    //-                   td Número de operarios (MOD)
-    //-                   td(colspan="2") 5
-    //-               tr
-    //-                   td Tiempo estándar (100%) (min)
-    //-                   td(colspan="3") 6.113
-    //-                   td NOMBRE
-    //-                   td Blusa manga corta
-    //-               tr
-    //-                   td Eficiencia (%)
-    //-                   td(colspan="3") 
-    //-                   td EMPRESA
-    //-                   td Creaciones Trineo
-    //-               tr
-    //-                   td(colspan="3") RESULTADO
-    //-                   td ESTUDIO DE TIEMPO No.
-    //-                   td 222222
-                    
-    //-               tr
-    //-                   td Tiempoe Estándar (Afectado) (min)
-    //-                   td
-    //-                   td UNIDADES LOTE 
-    //-                   td 1223 
-    //-                   td DIBUJO No. 
-    //-                   td No
-    //-               tr
-    //-                   td Número de unidades HORA
-    //-                   td 49
-    //-                   td HORAS
-    //-                   td 24.92
-    //-                   td PLANO No.
-    //-                   td Punto
-    //-               tr
-    //-                   td Número de unidades DIA
-    //-                   td 393
-    //-                   td DIAS DE PRODUCCIÓN
-    //-                   td 3.115
-    //-                   td TALLER
-    //-                   td
-    //-             tbody
-    //TODO! pendiente plantear la tabla como anexo. 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-secundario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema2/excel.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1(style="color: #122b4c") Ejemplo de formato de balance de líneas modulares
+                  p.mb-0.text-small(style="color: #122b4c") Le invitamos a descargar el siguiente formato, en el cual se evidencian cada uno de los elementos que hacen parte del balanceo de líneas de producción.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Tabla4.pdf')" target="_blank" type="application/pdf")
+                    span Descargar
+                    i.fas.fa-file 
     h3(style="color: #ea526f") Posibles causas en el desequilibrio de un balanceo de producción
     p.mb-5(data-aos='fade-right') A continuación, se enumeran una serie de situaciones, que a partir de distintos contextos, pueden generar un desequilibrio en un balanceo de producción:
     .p-5(style="background-color: #ffede5;  margin-bottom: 100px")
@@ -240,82 +185,73 @@
         img(src='@/assets/curso/temas/tema2/19.png', alt='' style="width: 387px; margin-bottom: -100px")
     h3(style="color: #ea526f") Variables
     p.mb-5(data-aos='fade-right') Al balancear una prenda de vestir y asignar tareas para copar la jornada laboral de los colaboradores, se deben tener presentes las siguientes variables, que se encuentran documentadas en un cuadro de control del balanceo:
-    .tarjeta.tarjeta--gris.p-4.mb-5
-      LineaTiempoC.color-acento-contenido(text-small)
-        div(titulo="Variable 1").px-5.py-3
-          h4 Conocimiento de la jornada de trabajo en minutos
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          div(titulo="Conocimiento de la jornada de trabajo en minutos").px-5.py-3
+            p Se establece el tiempo laboral básico, es decir, jornada horaria (60 minutos) y jornada diaria (480 minutos), se aclara que no debe integrar horas extras.
 
-          p Se establece el tiempo laboral básico, es decir, jornada horaria (60 minutos) y jornada diaria (480 minutos), se aclara que no debe integrar horas extras.
 
+          div(titulo="Número de operarios de mano de obra directa").px-5.py-3
 
-        div(titulo="Variable 2").px-5.py-3
-          h4 Número de operarios de mano de obra directa
+            p Se refiere tanto a aquellos que manipulan las máquinas, como aquellos que realizan actividades manuales.
 
-          p Se refiere tanto a aquellos que manipulan las máquinas, como aquellos que realizan actividades manuales.
+          div(titulo="Tiempo estándar del producto").px-5.py-3
+            h4 
 
-        div(titulo="Variable 3").px-5.py-3
-          h4 Tiempo estándar del producto
-
-          p Así como de cada una de las operaciones se trabaja al 100 %, cabe recordar que al definir la unidad de medida en minutos asociada a un método de trabajo, afecta la valoración del ritmo de trabajo y al cual se le adiciona un tiempo suplementario. Este es un tema tratado anteriormente en el cálculo del tiempo estándar en el estudio del trabajo.
-          
-        div(titulo="Variable 4").px-5.py-3
-          h4 Porcentaje de eficiencia de la planta
-          p Así como de cada una de las operaciones se trabaja al 100 %, cabe recordar que al definir la unidad de medida en minutos asociada a un método de trabajo, afecta la valoración del ritmo de trabajo y al cual se le adiciona un tiempo suplementario. Este es un tema tratado anteriormente en el cálculo del tiempo estándar en el estudio del trabajo.
-        div(titulo="Variable 5").px-5.py-3
-          h4 Cálculo del número de unidades por hora
-
-          p Se obtiene a través de la siguiente fórmula:
-          img(src='@/assets/curso/temas/tema2/20.svg', alt='' style="width: 666px")
-          
-        div(titulo="Variable 6").px-5.py-3
-          h4 Cálculo del número de unidades por día
-
-          p Se obtiene a través de la siguiente fórmula:
-          img(src='@/assets/curso/temas/tema2/21.svg', alt='' style="width: 666px")
-          
-        div(titulo="Variable 7").px-5.py-3
-          h4 Cálculo de minutos por operación por día
-
-          p Se obtiene a través de la siguiente fórmula:
-          img(src='@/assets/curso/temas/tema2/23.svg', alt='' style="width: 704px")
-          
-        div(titulo="Variable 8").px-5.py-3
-          h4 Cálculo de minutos por operación por hora
-
-          p Este se emplea al hacer balance por hora. Se obtiene a través de la siguiente fórmula:
-          img(src='@/assets/curso/temas/tema2/24.svg', alt='' style="width: 787px")
-          
-        div(titulo="Variable 9").px-5.py-3
-          h4 Cálculo del número de persona requeridas para evacuar los minutos por operación, por hora o por día
-
-          p Es de resaltar que el resultado que obtenemos de este cálculo depende de si la empresa utiliza el balanceo para el día o para la hora. Como el dato es similar, mencionamos ambos cálculos matemáticos:
-          img(src='@/assets/curso/temas/tema2/25.svg', alt='' style="width: 790px")
-          img(src='@/assets/curso/temas/tema2/26.svg', alt='' style="width: 790px")
+            p Así como de cada una de las operaciones se trabaja al 100 %, cabe recordar que al definir la unidad de medida en minutos asociada a un método de trabajo, afecta la valoración del ritmo de trabajo y al cual se le adiciona un tiempo suplementario. Este es un tema tratado anteriormente en el cálculo del tiempo estándar en el estudio del trabajo.
+            
+          div(titulo="Porcentaje de eficiencia de la planta").px-5.py-3
+            p Así como de cada una de las operaciones se trabaja al 100 %, cabe recordar que al definir la unidad de medida en minutos asociada a un método de trabajo, afecta la valoración del ritmo de trabajo y al cual se le adiciona un tiempo suplementario. Este es un tema tratado anteriormente en el cálculo del tiempo estándar en el estudio del trabajo.
+          div(titulo="Cálculo del número de unidades por hora").px-5.py-3
+            p Se obtiene a través de la siguiente fórmula:
+            img(src='@/assets/curso/temas/tema2/20.svg', alt='' style="width: 666px")
+      .col-lg-5.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/c2.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/c3.png', alt='')
+      .col-lg-7(data-aos="fade-left")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          div(titulo="Cálculo del número de unidades por día").px-5.py-3
+            p Se obtiene a través de la siguiente fórmula:
+            img(src='@/assets/curso/temas/tema2/21.svg', alt='' style="width: 666px")
+            
+          div(titulo="Cálculo de minutos por operación por día").px-5.py-3
+            p Se obtiene a través de la siguiente fórmula:
+            img(src='@/assets/curso/temas/tema2/23.svg', alt='' style="width: 704px")
+            
+          div(titulo="Cálculo de minutos por operación por hora").px-5.py-3
+            p Este se emplea al hacer balance por hora. Se obtiene a través de la siguiente fórmula:
+            img(src='@/assets/curso/temas/tema2/24.svg', alt='' style="width: 787px")
+            
+          div(titulo="Cálculo del número de persona requeridas para evacuar los minutos por operación, por hora o por día").px-5.py-3
+            p Es de resaltar que el resultado que obtenemos de este cálculo depende de si la empresa utiliza el balanceo para el día o para la hora. Como el dato es similar, mencionamos ambos cálculos matemáticos:
+            img(src='@/assets/curso/temas/tema2/25.svg', alt='' style="width: 790px").mb-4
+            img(src='@/assets/curso/temas/tema2/26.svg', alt='' style="width: 790px")
     h3(style="color: #ea526f") Cálculo de cargas de trabajo
     p.mb-5(data-aos='fade-right') Para determinar las cargas de trabajo en sus distintas dimensiones, se realizan los siguientes cálculos:
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Total de personas por especialidad de máquinas" :icono="require('@/assets/curso/temas/tema2/31.svg')")
+      .py-4.py-md-5(titulo="Total de personas por especialidad de máquinas" :icono="require('@/assets/curso/temas/tema2/i1.svg')")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             h4 Total de personas por especialidad de máquinas
             p Se obtiene realizando la sumatoria de los datos numéricos de la columna Cálculo personas por operación ubicada en el anexo titulado Ejemplo de formato de balanceo de líneas modulares.
           .col-md-3
             img(src='@/assets/curso/temas/tema2/27.png', alt='')
-      .py-4.py-md-5(titulo="Puestos reales de trabajo" :icono="require('@/assets/curso/temas/tema2/32.svg')")
+      .py-4.py-md-5(titulo="Puestos reales de trabajo" :icono="require('@/assets/curso/temas/tema2/i2.svg')")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             h4 Puestos reales de trabajo
             p Este dato corresponde a la creación de puestos trabajo por lo que la disponibilidad física de ellos es un requerimiento del balanceo. En este punto siempre se recomienda aproximar a un número entero.
           .col-md-3
             img(src='@/assets/curso/temas/tema2/28.png', alt='')
-      .py-4.py-md-5(titulo="Asignación de tareas" :icono="require('@/assets/curso/temas/tema2/33.svg')")
+      .py-4.py-md-5(titulo="Asignación de tareas" :icono="require('@/assets/curso/temas/tema2/i3.svg')")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             h4 Asignación de tareas
             p Para asignar al equipo de trabajo las tareas, primero se debe registrar la jornada laboral de las personas, con los minutos de producción por hora (60 minutos), por día (480 minutos) o por operación, acorde al sistema de balanceo que lleve la planta.
           .col-md-3
             img(src='@/assets/curso/temas/tema2/29.png', alt='')
-      .py-4.py-md-5(titulo="Separación de la maquinaria" :icono="require('@/assets/curso/temas/tema2/34.svg')")
+      .py-4.py-md-5(titulo="Separación de la maquinaria" :icono="require('@/assets/curso/temas/tema2/i4.svg')")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             h4 Separación de la maquinaria
@@ -434,7 +370,21 @@
                   td(colspan="3" ) TOTAL
                   td 6.113
       p.mb-5(data-aos='fade-right') Por consiguiente, en la tabla 3, se establece la información que se ubicará en el formato de balanceo en líneas de trabajo, ver siguiente tabla.
-      //todo! TABLA COMO ANEXO 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-secundario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema2/excel.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1(style="color: #122b4c") Ejemplo de aplicación de balanceo en línea de trabajo			
+                  p.mb-0.text-small(style="color: #122b4c") Le invitamos a consultar el siguiente anexo en el cual se establece la información que se ubicará en el formato de balanceo en líneas de trabajo	
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Tabla6.pdf')" target="_blank" type="application/pdf")
+                    span Descargar
+                    i.fas.fa-file 
     .row.justify-content-center.mb-3
       .col-lg-10
         .tarjeta.color-secundario.p-3

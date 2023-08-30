@@ -30,15 +30,19 @@
           img(src='@/assets/curso/temas/tema8/2.svg', alt='')
     h3 Sistemas de transformación o producción
     p.mb-5(data-aos='fade-right') Los sistemas de producción engloban todos los procesos, actividades y elementos que permiten que la materia prima se convierta en productos terminados. #[b La manera como se transforman materias primas en productos terminados (prendas de vestir) tienen diferentes formas de funcionar, esencialmente se pueden definir cuatro tipos:]
-    TabsA.color-acento-contenido.mb-5
-      .tarjeta.p-4(titulo="Sistema de producción <br>de flujo continuo" style="background-color: #ebf6ff")
-        p No existen variaciones significativas entre sus productos, como su nombre lo expresa la producción es constante y habitualmente se ocupa de grandes volúmenes de unidades a producir. Parar y volver a iniciar un sistema de producción de este tipo es demasiado costoso, por ejemplo, hornos de producción constante.
-      .tarjeta.p-4(titulo="Sistema de <br>producción en masa" style="background-color: #ebf6ff")
-        p Es similar a la producción de flujo continuo, pero sus lotes son de menos unidades y a pesar de que sus productos son muy parecidos, muestran diferencias más relevantes. Sus procesos son muy automatizados.
-      .tarjeta.p-4(titulo="Sistema de producción<br> por lotes" style="background-color: #ebf6ff")
-        p Aquí se minimizan las cantidades, se podría decir que en los sistemas de flujo continuo se habla de producir millares, en la producción en masa centenas, en la producción por lotes se producen decenas. Se utiliza más en pymes, que es donde las capacidades de producción son más coherentes con este tipo de lotes.
-      .tarjeta.p-4(titulo="Sistema de producción<br> por trabajo" style="background-color: #ebf6ff")
-        p Se trata de sistemas dedicados a la producción de lotes muy pequeños, personalizados, de mucha manufactura, y con diseños exclusivos.
+    .row.justify-content-center.mb-5
+      .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          div(titulo="Sistema de producción  de flujo continuo")
+            p No existen variaciones significativas entre sus productos, como su nombre lo expresa la producción es constante y habitualmente se ocupa de grandes volúmenes de unidades a producir. Parar y volver a iniciar un sistema de producción de este tipo es demasiado costoso, por ejemplo, hornos de producción constante.
+          div(titulo="Sistema de  producción en masa")
+            p Es similar a la producción de flujo continuo, pero sus lotes son de menos unidades y a pesar de que sus productos son muy parecidos, muestran diferencias más relevantes. Sus procesos son muy automatizados.
+          div(titulo="Sistema de producción  por lotes")
+            p Aquí se minimizan las cantidades, se podría decir que en los sistemas de flujo continuo se habla de producir millares, en la producción en masa centenas, en la producción por lotes se producen decenas. Se utiliza más en pymes, que es donde las capacidades de producción son más coherentes con este tipo de lotes.
+          div(titulo="Sistema de producción  por trabajo")
+            p Se trata de sistemas dedicados a la producción de lotes muy pequeños, personalizados, de mucha manufactura, y con diseños exclusivos.
+      .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/tema8/c1.png', alt='')
+    
     .row.justify-content-center.mb-5
       .col-lg-8
         .p-5(style="background-color: #dbfafa ").mb-5
@@ -93,7 +97,7 @@
         .linea-editada
           LineaTiempoD.color-primario
             p.text-small(numero="1" titulo="Sector primario") Se refiere a las actividades que tienen que ver con la tierra, por ejemplo, la agricultura, la ganadería, la minería, etc.
-            p.text-small(numero="2" titulo="Sector secundario") Tiene que ver con los procesos de transformación y manufactura
+            p.text-small(numero="2" titulo="Sector secundario") Tiene que ver con los procesos de transformación y manufactura.
             p.text-small(numero="3" titulo="Sector terciario") Este sector es el que tiene que ver con las actividades de comercialización y #[em marketing.]
     .row.justify-content-center.mb-3
       .col-lg-10
