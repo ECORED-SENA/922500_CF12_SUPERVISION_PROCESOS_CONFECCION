@@ -25,7 +25,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2 
+          h5 Figura. 2 
           span Módulo de producción en “U” con todas las operaciones de un proceso
         img.mb-3(src='@/assets/curso/temas/tema7/3.svg', alt='Ejemplo de un módulo de producción en U, el cual representa cada una de las operaciones de un proceso de producción, desde la entrada de la materia prima, hasta la salida del producto final.')
         figcaption.mb-5 Nota. Tomado de Cuatrecasas (2012).
@@ -45,7 +45,7 @@
                         a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/hpCS90qCyCs" target="_blank" type="application/pdf")
                           span Ver video 
                           i.fas.fa-video
-    p.mb-5(data-aos='fade-right') Cuando se está trabajando de forma modular no se miden eficiencias individuales, sino grupales, los resultados son del módulo, no de cada persona, de ahí que los módulos de producción se han considerado una filosofía, que nace como respuesta a mercados exigentes en el tiempo, y en la versatilidad de la moda, también se han llamado a esos lotes pequeños series cortas.
+    p.mb-5(data-aos='fade-right') Cuando se está trabajando de forma modular no se miden eficiencias individuales, sino grupales, los resultados son del módulo, no de cada persona, de ahí que los módulos de producción se han considerado una filosofía, que nace como respuesta a mercados exigentes en el tiempo, y en la versatilidad de la moda, también se han llamado a esos lotes pequeñas series cortas.
     .p-5(style="background-color: #f4f9fe").mb-5
       .row.justify-content-center.align-items-center
         .col-lg-8 

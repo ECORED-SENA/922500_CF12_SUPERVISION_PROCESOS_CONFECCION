@@ -42,7 +42,7 @@
       br
       |#[b En la siguiente figura se ilustra la manera en que deben interactuar las actividades de una organización, proveyéndose unas a otras.]
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 3 
+      h5 Figura. 3 
       span Cadena de aprovisionamiento
     img(src='@/assets/curso/temas/tema9/5.svg', alt='La cadena de aprovisionamiento se compone de las siguientes fases: materias primas, producción, transporte y logística, agencias y sucursales, almacenamiento o bodegaje, venta, facturación y distribución y entregas.').mb-4
     figcaption.mb-5 Nota. Tomado y adaptado de Roldán (2017)

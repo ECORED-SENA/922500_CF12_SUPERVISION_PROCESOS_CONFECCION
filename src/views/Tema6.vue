@@ -12,10 +12,11 @@
       .col-lg-3.col-5.d-lg-block.d-none: img(src='@/assets/curso/temas/tema6/1.svg', alt='')
       .col-lg-9
         .p-4(style="background-color: #ffe8de ")
-          .bloque-texto-c.color-secundario.bg-transparent
-            i.fas.fa-quote-right
-            p.mb-0  “los diagramas de flujo son representaciones gráficas de procesos que muestran las actividades tanto de los procesos de negocio o productos/servicios como la relación entre estos. Dichos procesos tienen valor en casi todos los pasos de los precios para la solución de problemas. Se pueden utilizar para identificar problemas, definir mediciones, generar ideas, proporcionar una visión de la condición futura deseada y seleccionar la solución apropiada” (p.98).
+          .bloque-texto-e.color-secundario.bg-transparent
+            i.fas.fa-quote-left
+            p.mb-0  “Los diagramas de flujo son representaciones gráficas de procesos que muestran las actividades tanto de los procesos de negocio o productos/servicios como la relación entre estos. Dichos procesos tienen valor en casi todos los pasos de los precios para la solución de problemas. Se pueden utilizar para identificar problemas, definir mediciones, generar ideas, proporcionar una visión de la condición futura deseada y seleccionar la solución apropiada” (p.98).
             span Harrington (1997)
+            i.fas.fa-quote-right.text-end
     .p-5(style="background-color: #f3f9ff ").mb-5
       h5.mb-5 Se podría definir que las ventajas más destacadas de usar flujogramas en la gestión de procesos son:
       .row.justify-content-center.mb-5.align-items-center
@@ -45,7 +46,7 @@
               | Define e identifica las actividades.
             li
               i.fas.fa-angle-right(style="color: #FF6E33")
-              | Es fácil elaboración y no require recursos sofisticados.
+              | Es fácil elaboración y no requiere recursos sofisticados.
         .col-lg-4.col-6: img(src='@/assets/curso/temas/tema6/2.png', alt='')
     .bg-tema6.p-5.mb-5
       h5 Como desventajas se pueden destacar:
@@ -61,7 +62,7 @@
           i.fas.fa-angle-right(style="color: #FF6E33")
           | Hay procesos que manejan muchos datos y la incorporación de información es restringida.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 7
+      h5 Tabla. 7
       br
       span.fst-italic 4 principales figuras para realizar diagramas de flujo de proceso
     .row.justify-content-center.mb-5
@@ -135,7 +136,7 @@
 
         .col-lg-6.col-6 
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 1  
+            h5 Figura. 1  
             span Ejemplo diagrama de hilo
           img(src='@/assets/curso/temas/tema6/10.svg', alt='Diagrama de hilos que muestra el recorrido de producción, presentando, a través de letras los puestos de trabajo o los almacenamientos, y los recorridos y distancias que los separan, a través de alfileres e hilos.').mb-3
           figcaption Nota. Tomado de Mejía (2021).

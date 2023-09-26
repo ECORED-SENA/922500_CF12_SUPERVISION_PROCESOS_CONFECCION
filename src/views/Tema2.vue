@@ -46,7 +46,7 @@
           img(src='@/assets/curso/temas/tema2/7.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
-              p.text-center Disminuir la curva de aprendizaje en el montaje de las ordenes de producción.
+              p.text-center Disminuir la curva de aprendizaje en el montaje de las órdenes de producción.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/8.svg' alt='AvatarTop')(style="top:40px; width: 60px")
           .tarjeta.color-primario--borde.border-2.w-100
@@ -283,7 +283,7 @@
               .col-lg-2.col-6: img(src='@/assets/curso/temas/tema2/35.svg', alt='')
             p.mb-5(data-aos='fade-right') Con esta información se debe construir el cuadro de control y balancear la línea de trabajo sabiendo que la lista de operaciones es la siguiente: 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Tabla 4
+        h5 Tabla. 4
         span Ejemplo práctico balanceo de líneas (listado operacional)
       .row.justify-content-center.mb-4
         .col-lg-11
@@ -369,7 +369,7 @@
                 tr
                   td(colspan="3" ) TOTAL
                   td 6.113
-      p.mb-5(data-aos='fade-right') Por consiguiente, en la tabla 3, se establece la información que se ubicará en el formato de balanceo en líneas de trabajo, ver siguiente tabla.
+      p.mb-5(data-aos='fade-right') Por consiguiente, en la tabla 4, se establece la información que se ubicará en el formato de balanceo en líneas de trabajo, ver siguiente tabla.
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.color-secundario.p-3
@@ -395,7 +395,7 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1(style="color: #122b4c") Balanceo de líneas de producción
-                        p.mb-0.text-small(style="color: #122b4c") ara ampliar sus conocimientos sobre este tema, lo invitamos a consultar el siguiente video en el cual se desarrolla un ejercicio práctico utilizando la herramienta Excel.
+                        p.mb-0.text-small(style="color: #122b4c") Para ampliar sus conocimientos sobre este tema, lo invitamos a consultar el siguiente video en el cual se desarrolla un ejercicio práctico utilizando la herramienta Excel.
                       .col-sm-auto
                         a.boton.color-acento-botones(href="https://youtu.be/i_6vW3PMsv0" target="_blank" type="application/pdf")
                           span Ver video 

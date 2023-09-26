@@ -58,7 +58,7 @@
               p.mb-0 en esta etapa se evacúa el producto hacia una terminación para ser referenciado y almacenado o para otro proceso alterno como lavandería, bordado o estampado.
     p.mb-5(data-aos='fade-right') #[b A continuación, se presenta un ejemplo del listado de operaciones que sirve como base para la construcción de la matriz polifuncional:]
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 5
+      h5 Tabla. 5
       span Ejemplo listado de operaciones
     .row.justify-content-center.mb-4
       .col-lg-11

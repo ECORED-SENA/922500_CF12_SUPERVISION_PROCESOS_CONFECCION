@@ -4,6 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .row.justify-content-center
       .col-lg-10.mb-5
+        p.mb-5(data-aos='fade-right') A continuación, se presenta una síntesis del componente formativo.
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema general de este componente formativo, que enuncia las temáticas desarrolladas en el mismo y destaca aspectos clave estudiados. Tema central: capacidad productiva, cargas de trabajo y flujos de proceso. Temas integradores: capacidad instalada, matriz de polifuncionalidad, balanceo de líneas de producción y flujo de procesos.")
       .col-auto

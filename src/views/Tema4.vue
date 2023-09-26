@@ -97,7 +97,7 @@
       br
       |En la tabla que se encuentra a continuación, se presenta un ejemplo de una secuencia operacional, en la que se observa el listado de las operaciones en un orden lógico, identificando las máquinas en las cuales se ejecuta la operación y el tiempo estándar que se demora cada una. Adicional, se anotan observaciones pertinentes y que apunten a mejorar la productividad y los nombres de las personas que hacen o harán la operación.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 6
+      h5 Tabla. 6
       br
       span.fst-italic  Secuencia operacional
     .row.justify-content-center.mb-4
@@ -107,7 +107,7 @@
             thead(style="border-top: 0px")
               tr(style="background-color: #FF6E33 ") 
                 th(style="width: 7%")
-                th(colspan="4" style="width: 80%") Cliente : MIC
+                th(colspan="4" style="width: 80%") Cliente: MIC
                 th
               tr(style="background-color: #dee9f0 ") 
                 th #OP 
@@ -309,8 +309,8 @@
               tr
                 td 26 
                 td Hacer bota 
-                td 0.9 PLANA 1 AG.
-                td 
+                td 0.9 
+                td PLANA 1 AG.
                 td 
                 td 
               tr

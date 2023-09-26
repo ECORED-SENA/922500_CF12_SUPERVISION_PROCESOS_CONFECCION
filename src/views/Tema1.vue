@@ -56,7 +56,7 @@
               p.mb-0(style="color: #000000").fw-bold  Caso de Ejemplo
           p.mb-4 Hilos y Dedales S.A.S. tiene una planta de manufactura y cuenta con 2 módulos de ensamble que respectivamente poseen personal de mano de obra directa de 9, 8, y 14 personas en el área de empaque. La empresa labora de lunes a sábado en 8 horas diarias. Por ello, se pide calcular la capacidad instalada operativa, por equipos de trabajo, durante una hora, un día y un mes.
           .titulo-sexto.color-primario(data-aos='fade-right')
-            h5 Tabla 1 
+            h5 Tabla. 1 
             span Ejemplo capacidad instalada operativa
           .row.justify-content-center.mb-4
             .col-lg-11
@@ -173,7 +173,7 @@
           .tarjeta.w-100.rounded-0(style="background-color: #ffe8de ")
             .p-4.text-center.pt-5
               h5 Número de unidades de la orden de producción
-              p Total de unidades asociadas a una orden de producción especifica.
+              p Total de unidades asociadas a una orden de producción específica.
       .col-lg-5.mb-lg-0.mb-3
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/7.svg' alt='AvatarTop')
@@ -194,7 +194,7 @@
               p.mb-0(style="color: #000000").fw-bold  Caso de Ejemplo
           p.mb-4 Manufacturamos prendas S.A.S. tiene una planta de producción y cuenta con las siguientes órdenes de fabricación que se presentan a continuación:
           .titulo-sexto.color-primario(data-aos='fade-right')
-            h5 Tabla 2
+            h5 Tabla. 2
             span Ejemplo carga instalada o minutos de producción
           .row.justify-content-center.mb-4
             .col-lg-11
@@ -270,14 +270,14 @@
           .tarjeta.w-100.rounded-0(style="background-color: #ffe8de ")
             .p-4.text-center.pt-5
               h5 Número de unidades de la orden de producción
-              p Total de unidades asociadas a una orden de producción especifica.
+              p Total de unidades asociadas a una orden de producción específica.
       .col-lg-5.mb-lg-0.mb-3
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/7.svg' alt='AvatarTop')
           .tarjeta.w-100.rounded-0(style="background-color: #dbfafa ")
             .p-4.text-center.pt-5
               h5 Jornada de Trabajo
-              p Periodo de tiempo estimado en la normatividad del código Sustantivo del trabajo colombiano, en el que se determinan un numero de de minutos horarios o diarios.
+              p Periodo de tiempo estimado en la normatividad del código Sustantivo del trabajo colombiano, en el que se determinan un número de minutos horarios o diarios.
     p.mb-5(data-aos='fade-right').text-center Así, para determinar la carga instalada en minutos técnicos se debe realizar la siguiente fórmula:
     .justify-content-center.d-flex.mb-4
         .tarjeta.color-acento-contenido.p-4.d-inline-flex
@@ -291,7 +291,7 @@
               p.mb-0(style="color: #000000").fw-bold  Caso de Ejemplo
           p.mb-4 Manufacturas y Manufacturas S.A.S. presenta la siguiente relación del parque de la maquinaria con la que actualmente cuenta la empresa, con ello, el líder del departamento de producción requiere el cálculo de la capacidad instalada en minutos técnicos para la elaboración del plan maestro de producción, por lo que pide a su asistente elaborar un cuadro de control que contenga los datos.
           .titulo-sexto.color-primario(data-aos='fade-right')
-            h5 Tabla 3
+            h5 Tabla. 3
             span Ejemplo carga instalada o minutos de producción
           .row.justify-content-center.mb-4
             .col-lg-12
@@ -486,7 +486,7 @@
             p Hace referencia al hecho de ser competitivos en un mercado donde la competencia no tiene escrúpulos para aplastar los precios de los productos propios.
           div(titulo="Uso racional del espacio físico" )
             p Este es muy costoso, sobre todo el suelo comercial, por lo que se espera el máximo aprovechamiento de cada centímetro disponible en las áreas locativas.
-          div(titulo="Aplicaciones en la construcción de  balances de lineas de trabajo" )
+          div(titulo="Aplicaciones en la construcción de  balances de líneas de trabajo" )
             p Esta matriz permite calcular metas programadas y la asignación de cargas de trabajo, con el complemento del cuadro de polifuncionalidad.
           div(titulo="Intervención en el diseño de los  indicadores de gestión de la compañía" )
             p Permite trazabilidad al proceso de aplicación de políticas y estrategias corporativas.

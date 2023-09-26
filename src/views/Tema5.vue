@@ -30,7 +30,7 @@
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
             h4 Procesos
-            p Son actividades que se realizan para obtener productos y/o servicios, las anteceden unas entradas y culminan con unas salidas. En las plantas de producción y específicamente en las que pertenecen al sistema moda se realizan procesos diversos desde el diseño, trazo y corte, ensamble y confección, lavados, hasta el acabado y el despacho. Es muy importante tener dimensionados como se interrelacionan y lo que representan en el proceso total cada uno de esos procesos. Por su parte, la ISO 9000 (2015) define proceso como el conjunto de todas las operaciones que intervienen y se relacionan entre sí para transformar las entradas en resultados. En las organizaciones una de las funciones más relevantes es ir generando valor en la medida que sus operaciones van avanzando, en la transformación de las materias primas en productos o servicios finales. De ahí que a los sistemas de trasformación se les dedique una atención importante.
+            p Son actividades que se realizan para obtener productos y/o servicios, las anteceden unas entradas y culminan con unas salidas. En las plantas de producción y específicamente en las que pertenecen al sistema moda, se realizan procesos diversos, desde el diseño, trazo y corte, ensamble y confección, lavados, hasta el acabado y el despacho. Es muy importante tener dimensionados como se interrelacionan y lo que representan en el proceso total cada uno de esos procesos. Por su parte, la ISO 9000 (2015) define proceso como el conjunto de todas las operaciones que intervienen y se relacionan entre sí para transformar las entradas en resultados. En las organizaciones una de las funciones más relevantes es ir generando valor en la medida que sus operaciones van avanzando, en la transformación de las materias primas en productos o servicios finales. De ahí que a los sistemas de trasformación se les dedique una atención importante.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema5/4.png', alt='Texto que describa la imagen')
@@ -55,7 +55,7 @@
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
               h5.text-center Documentos
-              p.text-center Contienen información detallada de las especificaciones a cumplir, ordenes de producción, cantidades, etc.
+              p.text-center Contienen información detallada de las especificaciones a cumplir, órdenes de producción, cantidades, etc.
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema5/7.svg' alt='AvatarTop')(style="top:30px; width: 105px")
           .tarjeta.color-primario--borde.border-2.w-100
@@ -79,7 +79,7 @@
           .tarjeta.color-primario--borde.border-2.w-100
             .p-4
               h5.text-center Maquinaria y Equipos
-              p.text-center A pesar de que la producción de prendas de vestir ha llamado manufactura, se requieren equipos, maquinas y herramientas que ayuden a llevar a cabo los pronósticos planteados.
+              p.text-center A pesar de que la producción de prendas de vestir ha llamado manufactura, se requieren equipos, máquinas y herramientas que ayuden a llevar a cabo los pronósticos planteados.
     p.mb-5(data-aos='fade-right') El éxito de un buen flujo de proceso y/o de trabajo se evidencia cuando se hacen mediciones de los resultados obtenidos y se comparan con la situación encontrada antes de implementar un nuevo flujo de producción, es decir, cuando se realiza un proceso de mejora.
       br
       br
